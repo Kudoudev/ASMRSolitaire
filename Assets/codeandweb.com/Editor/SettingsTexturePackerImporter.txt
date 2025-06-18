@@ -1,0 +1,9 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Resource/SpritesPackaged/Cards_II.tpsheet
+textureFileNames:
+- Assets/Resource/SpritesPackaged/Cards_II.png
+normalmapFileNames:
+- 
+enableDebugOutput: 0

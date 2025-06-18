@@ -1,0 +1,2666 @@
+fileFormatVersion: 2
+guid: 7982a86810c11432d88a5554c9837983
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -861349348014523000
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_0
+  - first:
+      213: 4532138052068165678
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_1
+  - first:
+      213: -5221124602155686302
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_2
+  - first:
+      213: 8251610803471820549
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_3
+  - first:
+      213: 359035840568205827
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_4
+  - first:
+      213: 2421646517593089339
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_5
+  - first:
+      213: -3081765389410602109
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_6
+  - first:
+      213: 3700521050357900710
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_7
+  - first:
+      213: -4279638239579733273
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_8
+  - first:
+      213: -6181449218895079084
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_9
+  - first:
+      213: 5965440759657632684
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_10
+  - first:
+      213: -2423891058420880290
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_11
+  - first:
+      213: -3922750086264717224
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_12
+  - first:
+      213: -9029190704788563327
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_13
+  - first:
+      213: -3707468730847979803
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_14
+  - first:
+      213: -8183466105070836402
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_15
+  - first:
+      213: 6850065041197050013
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_16
+  - first:
+      213: -8276653941051642284
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_17
+  - first:
+      213: 3420445756998092222
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_18
+  - first:
+      213: 5065451913755734724
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_19
+  - first:
+      213: 5481031198307798357
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_20
+  - first:
+      213: -7309166366320425971
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_21
+  - first:
+      213: 330611105993013168
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_22
+  - first:
+      213: -1574911421614743691
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_23
+  - first:
+      213: 5224301339201542176
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_24
+  - first:
+      213: 3776311559034242662
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_25
+  - first:
+      213: 6395954972223700724
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_26
+  - first:
+      213: 7014190897373677666
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_27
+  - first:
+      213: 7117684768005724347
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_28
+  - first:
+      213: 8736439662423149772
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_29
+  - first:
+      213: 1469403454636367967
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_30
+  - first:
+      213: 1473969793512842609
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_31
+  - first:
+      213: -387030920282143521
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_32
+  - first:
+      213: 156065083148284669
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_33
+  - first:
+      213: -4953070580834979245
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_34
+  - first:
+      213: -4708505813085512926
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_35
+  - first:
+      213: -3323986963089818552
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_36
+  - first:
+      213: 1268676712752415240
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_37
+  - first:
+      213: 1858709656239193371
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_38
+  - first:
+      213: 4265076879951089012
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_39
+  - first:
+      213: 3932281169559096912
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_40
+  - first:
+      213: 75792083303079361
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_41
+  - first:
+      213: 286699980108672941
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_42
+  - first:
+      213: -2500697411050216747
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_43
+  - first:
+      213: 6835802526669236089
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_44
+  - first:
+      213: -5301233846626342105
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_45
+  - first:
+      213: -6020596103605209057
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_46
+  - first:
+      213: -1472753500829129407
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_47
+  - first:
+      213: 5676107026008525549
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_48
+  - first:
+      213: -8896950752369887782
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_49
+  - first:
+      213: -101577968579378455
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_50
+  - first:
+      213: 3513009685465847376
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_51
+  - first:
+      213: 8889011746364426806
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_52
+  - first:
+      213: -5513572735606144938
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_53
+  - first:
+      213: 5755965705826745054
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_54
+  - first:
+      213: -755772676625744719
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_55
+  - first:
+      213: 1996941726017778365
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_56
+  - first:
+      213: -7111813277293567869
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_57
+  - first:
+      213: -6549405047117385277
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_58
+  - first:
+      213: -3225449661529702241
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_59
+  - first:
+      213: 988312247935283477
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_60
+  - first:
+      213: -3174768646674192501
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_61
+  - first:
+      213: 2438555226202397018
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_62
+  - first:
+      213: 7056457595197330849
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_63
+  - first:
+      213: -4391199977129464018
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_64
+  - first:
+      213: -5524616141884326227
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_65
+  - first:
+      213: 5860258617441682971
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_66
+  - first:
+      213: -5824407533287012444
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_67
+  - first:
+      213: 3363129312955163945
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_68
+  - first:
+      213: -3858072280336903073
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_69
+  - first:
+      213: -4095962981582134535
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_70
+  - first:
+      213: -3247401665839226411
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_71
+  - first:
+      213: -7941738479789426179
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_72
+  - first:
+      213: 7906239833311167551
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_73
+  - first:
+      213: -5823750090892214001
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_74
+  - first:
+      213: 6148864498276884652
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_75
+  - first:
+      213: -377979159380680754
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_76
+  - first:
+      213: 2703139824323179344
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_77
+  - first:
+      213: -7006300129864089441
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_78
+  - first:
+      213: -3994608004318120853
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_79
+  - first:
+      213: 1266515543597836660
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_80
+  - first:
+      213: -790943938429620755
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_81
+  - first:
+      213: -5626452821896302639
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_82
+  - first:
+      213: 1523967397898264322
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_83
+  - first:
+      213: -3376341051514330328
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_84
+  - first:
+      213: 3751639926408970278
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_85
+  - first:
+      213: 3090875093954996455
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_86
+  - first:
+      213: -4408303815810851073
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_87
+  - first:
+      213: -6693761309051562807
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_88
+  - first:
+      213: -8494200256066993274
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_89
+  - first:
+      213: -4093545424464019006
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_90
+  - first:
+      213: -2475542316386193937
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_91
+  - first:
+      213: 218884264927537010
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_92
+  - first:
+      213: -6400004845995191662
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_93
+  - first:
+      213: 6208628199891845353
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_94
+  - first:
+      213: 5337239755346484445
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_95
+  - first:
+      213: -2583910672314713418
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_96
+  - first:
+      213: -3918061079097365115
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_97
+  - first:
+      213: 5242394421571886088
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_98
+  - first:
+      213: -9053670955802374606
+    second: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_99
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58e9ebe81fd848f889798098f9167dc
+      internalID: -861349348014523000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d715f229ffbea4b9e87c6180ab55b841
+      internalID: 4532138052068165678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643121b2cd77a47ad9573007ed62e3ec
+      internalID: -5221124602155686302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d189241e72c24d6c8acb63bbd6dd86e
+      internalID: 8251610803471820549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94255d9b6f1ea44cea7479d1d01023ae
+      internalID: 359035840568205827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_5
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ed268a9b530402e92b2182201d5161
+      internalID: 2421646517593089339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_6
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe7a61edd0084d42adff9cd8ea94822
+      internalID: -3081765389410602109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_7
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703acbae274484abfba3fb3ba3f50e00
+      internalID: 3700521050357900710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_8
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c7ec361df694aeb92a89a15cf0d276
+      internalID: -4279638239579733273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_9
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1821
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64488585571a4d0d85984c3cbe7c6fd
+      internalID: -6181449218895079084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ce1d9eaed744e648b10c98195f0edc
+      internalID: 5965440759657632684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78900ad1a0b7743ed96a2f1764bf1973
+      internalID: -2423891058420880290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b06fc82eecb24b2f90ee5a434705391
+      internalID: -3922750086264717224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_13
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018703da58a1473bbe3a3e7933e830a
+      internalID: -9029190704788563327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_14
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ba62334dbd64ae981228ff5faa4a78
+      internalID: -3707468730847979803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_15
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2308304c7d74830a12d19afdba7653
+      internalID: -8183466105070836402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_16
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b47a264d63240a6999a690e4a377e2
+      internalID: 6850065041197050013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_17
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc2c13ad97704579af12042fa0ddc1a
+      internalID: -8276653941051642284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_18
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56877c00f9ad64f9db7ada07b8fc1458
+      internalID: 3420445756998092222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_19
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1619
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6747210c5fc5347fd8c40f81bc196c8a
+      internalID: 5065451913755734724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e08591a26964272927e1a14fd50985
+      internalID: 5481031198307798357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772d1662ef7da4cc0aaa524181f824cd
+      internalID: -7309166366320425971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa5fa8ed84034fa18ecf12ff19488e9
+      internalID: 330611105993013168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_23
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1183993b886f74db78b1e4ee4c2dcd6f
+      internalID: -1574911421614743691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_24
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d41a3a904544d0874962fc048c451
+      internalID: 5224301339201542176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_25
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239cee1b3d9d342428be011fe0ab5ec7
+      internalID: 3776311559034242662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_26
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2508424ebc344b66bac157f5540ca95
+      internalID: 6395954972223700724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_27
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab3e92342ef43b1a9b61a15a58bd84
+      internalID: 7014190897373677666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_28
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684c7fc3fcf5942ed986cc4f8caff153
+      internalID: 7117684768005724347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_29
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1417
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae7754c92f354134a05ec7887f9a91c
+      internalID: 8736439662423149772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c9ac22fc7af495fa5927da555d2ef5
+      internalID: 1469403454636367967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_31
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffd28f04575f4381842dd3a9ea56af3
+      internalID: 1473969793512842609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff040722b5e843378a8a48a8bed3346
+      internalID: -387030920282143521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_33
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6ed3050e38f45ba9a49d3516875e2d
+      internalID: 156065083148284669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_34
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592f3962419e462f8ea31c6c5c1232e
+      internalID: -4953070580834979245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_35
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595a91437c1ac4807bb89836d4903b77
+      internalID: -4708505813085512926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_36
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b716cf61e654ffda56b2d42ac53cf0
+      internalID: -3323986963089818552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_37
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba62ef9b4e5404af88aa2610aeb29867
+      internalID: 1268676712752415240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_38
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e3f3356fae340b8a46e66d9426e174
+      internalID: 1858709656239193371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_39
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1215
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f30a056b21614e81b23870a9ef0efdb
+      internalID: 4265076879951089012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c009ee54f2141c9937426cf38dc66d
+      internalID: 3932281169559096912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_41
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503f148c9d1e44ae297f735ca8ee0cad
+      internalID: 75792083303079361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_42
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b80116f21c74b9faa24ea0d90b3638
+      internalID: 286699980108672941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_43
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56016d1580a904f7fa7e25c2281a456a
+      internalID: -2500697411050216747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_44
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcd9eabc3d66477fb7f563bbfb66edc
+      internalID: 6835802526669236089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_45
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce601951722444baba7d8770191841a9
+      internalID: -5301233846626342105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_46
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78366857cb5544a99b3e3747c366ef6
+      internalID: -6020596103605209057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_47
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dbfaa6de8ce4b44a2b6f60e792e1a2
+      internalID: -1472753500829129407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_48
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb52bfa36b9064107a56e8627596ac14
+      internalID: 5676107026008525549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_49
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1013
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8877027949843c2b25033b31b5d041
+      internalID: -8896950752369887782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b014c0749ac4eb4a4e9773e2015014
+      internalID: -101577968579378455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0476efc580d2c401b9bcbd0584e5142b
+      internalID: 3513009685465847376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_52
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d234f2d5c116b4d48906226a1a02b3b1
+      internalID: 8889011746364426806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_53
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a369adbc681d4c0ca51a851bc68051a
+      internalID: -5513572735606144938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_54
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c14e7e5a4934be0959dad296ceae1b
+      internalID: 5755965705826745054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_55
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b65e3b06ec3407d9e3fc67c6584b2e
+      internalID: -755772676625744719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_56
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579fbc230866b4874a1a6b28f48fdc2f
+      internalID: 1996941726017778365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_57
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22855188f335c4e8a8603720de0dbc56
+      internalID: -7111813277293567869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_58
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f6dd759c7714358ab0990b3306203f
+      internalID: -6549405047117385277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_59
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc59323fcc2f4775b09416777d65cf2
+      internalID: -3225449661529702241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d48e465ab943b484afa2eca7891f6
+      internalID: 988312247935283477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_61
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63afcf165c5ce4e23b15dd6f86dcf2b2
+      internalID: -3174768646674192501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_62
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80880ac576b6240f7856465a00d3cf82
+      internalID: 2438555226202397018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_63
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0a70cb71ca0405f9c19eb05aa6c23c
+      internalID: 7056457595197330849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_64
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cac74cf3e32476c825688f3e449e62
+      internalID: -4391199977129464018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_65
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdef46bd30c4456d967a9d81f0fb5a2
+      internalID: -5524616141884326227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_66
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab36f56e9f11849bda839647f6128f60
+      internalID: 5860258617441682971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_67
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a7d79d3832f4d8a93cc107a8e612d6
+      internalID: -5824407533287012444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_68
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb2ccb62f9a441e5812855265ad841c
+      internalID: 3363129312955163945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_69
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 609
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44f4f17e11a04ca881fa7df3e150098
+      internalID: -3858072280336903073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd190649518834118a21a67bc115c7cd
+      internalID: -4095962981582134535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_71
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188bf8ad94478493d83e7869f8d78ec1
+      internalID: -3247401665839226411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_72
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 406
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c796c3b987d494361b551a1fcd8248da
+      internalID: -7941738479789426179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_73
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097cb7b9b233143ef97c117bae91ad9a
+      internalID: 7906239833311167551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_74
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a436ed8bfb0f47689c09060b0db58a1
+      internalID: -5823750090892214001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_75
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da77d3c8d1ffb4ce494aa45180ef1107
+      internalID: 6148864498276884652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_76
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba8086c859eb414495de8385d4d3363
+      internalID: -377979159380680754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_77
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324eacff51f814a81b5130d3769d3420
+      internalID: 2703139824323179344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_78
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70f1f3308489429ca20683fe1876204
+      internalID: -7006300129864089441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_79
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 407
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d8b2d78953c48ad9c442619fd2788a
+      internalID: -3994608004318120853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2deab9f7ee264ca6b3985dd4d150219
+      internalID: 1266515543597836660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_81
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186e2b796b936491ab11c18827a749aa
+      internalID: -790943938429620755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_82
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226381bdfd96b4f08b55c78126d130cf
+      internalID: -5626452821896302639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_83
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b9ac5993b2a4ce99c0e948e61bb0e9
+      internalID: 1523967397898264322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_84
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562def115ce6e4fa88c881aa3e2bae89
+      internalID: -3376341051514330328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_85
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee0214a55f94221a21a744f0ad5cae
+      internalID: 3751639926408970278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_86
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38f0f6e3f05643cda1d77ed861aecd2
+      internalID: 3090875093954996455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_87
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba121e0c809a948d58fd9c07d76bb1db
+      internalID: -4408303815810851073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_88
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03b320b48c504a45888fa48ada2271b
+      internalID: -6693761309051562807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_89
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 205
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d82a0a123f742acbc077bffbbd47b0
+      internalID: -8494200256066993274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b65644aa5d24255a5a644035571f1a
+      internalID: -4093545424464019006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_91
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75625429459df4e0c9727b22b0f67e42
+      internalID: -2475542316386193937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_92
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad079a842962d4dd788ceedaf48fc6d6
+      internalID: 218884264927537010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_93
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1006558525a49cfb5edfedb5bfda52
+      internalID: -6400004845995191662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_94
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c1eefbeec224fadb5c4d5451d7d368
+      internalID: 6208628199891845353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_95
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da794873556149f59f3fd55690a7cf5
+      internalID: 5337239755346484445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_96
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48448f349b2549bc9baf1411ac5f09a
+      internalID: -2583910672314713418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_97
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1415f46894b8449c48d42238f4c78776
+      internalID: -3918061079097365115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_98
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 2
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c29d750b6604605a88a4b6f6e07418
+      internalID: 5242394421571886088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_99
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e0f666fdeba45c9a33822fb63d6ccc
+      internalID: -9053670955802374606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_0: -861349348014523000
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_1: 4532138052068165678
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_10: 5965440759657632684
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_11: -2423891058420880290
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_12: -3922750086264717224
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_13: -9029190704788563327
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_14: -3707468730847979803
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_15: -8183466105070836402
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_16: 6850065041197050013
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_17: -8276653941051642284
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_18: 3420445756998092222
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_19: 5065451913755734724
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_2: -5221124602155686302
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_20: 5481031198307798357
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_21: -7309166366320425971
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_22: 330611105993013168
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_23: -1574911421614743691
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_24: 5224301339201542176
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_25: 3776311559034242662
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_26: 6395954972223700724
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_27: 7014190897373677666
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_28: 7117684768005724347
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_29: 8736439662423149772
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_3: 8251610803471820549
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_30: 1469403454636367967
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_31: 1473969793512842609
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_32: -387030920282143521
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_33: 156065083148284669
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_34: -4953070580834979245
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_35: -4708505813085512926
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_36: -3323986963089818552
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_37: 1268676712752415240
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_38: 1858709656239193371
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_39: 4265076879951089012
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_4: 359035840568205827
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_40: 3932281169559096912
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_41: 75792083303079361
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_42: 286699980108672941
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_43: -2500697411050216747
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_44: 6835802526669236089
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_45: -5301233846626342105
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_46: -6020596103605209057
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_47: -1472753500829129407
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_48: 5676107026008525549
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_49: -8896950752369887782
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_5: 2421646517593089339
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_50: -101577968579378455
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_51: 3513009685465847376
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_52: 8889011746364426806
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_53: -5513572735606144938
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_54: 5755965705826745054
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_55: -755772676625744719
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_56: 1996941726017778365
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_57: -7111813277293567869
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_58: -6549405047117385277
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_59: -3225449661529702241
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_6: -3081765389410602109
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_60: 988312247935283477
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_61: -3174768646674192501
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_62: 2438555226202397018
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_63: 7056457595197330849
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_64: -4391199977129464018
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_65: -5524616141884326227
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_66: 5860258617441682971
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_67: -5824407533287012444
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_68: 3363129312955163945
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_69: -3858072280336903073
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_7: 3700521050357900710
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_70: -4095962981582134535
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_71: -3247401665839226411
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_72: -7941738479789426179
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_73: 7906239833311167551
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_74: -5823750090892214001
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_75: 6148864498276884652
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_76: -377979159380680754
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_77: 2703139824323179344
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_78: -7006300129864089441
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_79: -3994608004318120853
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_8: -4279638239579733273
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_80: 1266515543597836660
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_81: -790943938429620755
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_82: -5626452821896302639
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_83: 1523967397898264322
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_84: -3376341051514330328
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_85: 3751639926408970278
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_86: 3090875093954996455
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_87: -4408303815810851073
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_88: -6693761309051562807
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_89: -8494200256066993274
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_9: -6181449218895079084
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_90: -4093545424464019006
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_91: -2475542316386193937
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_92: 218884264927537010
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_93: -6400004845995191662
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_94: 6208628199891845353
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_95: 5337239755346484445
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_96: -2583910672314713418
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_97: -3918061079097365115
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_98: 5242394421571886088
+      SpriteAtlasTexture-packIcons (Group 0)-2048x2048-fmt47_99: -9053670955802374606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
