@@ -19,9 +19,10 @@ namespace SimpleSolitaire.Controller
 
         [SerializeField] private AudioClip _moveToPack;
         [SerializeField] private AudioClip _moveToWaste;
-        [SerializeField] private AudioClip _error;
+       private AudioClip _error => _buttonClick;
         [SerializeField] private AudioClip _win;
-        [SerializeField] private AudioClip _buttonClick;
+        public List<AudioClip> clickSounds;
+        private AudioClip _buttonClick => clickSounds[UnityEngine.Random.Range(0, clickSounds.Count)];
         [SerializeField] private AudioClip _hint;
         [SerializeField] private AudioClip _windowClose;
         [SerializeField] private AudioClip _windowOpen;
@@ -86,34 +87,34 @@ namespace SimpleSolitaire.Controller
             switch (type)
             {
                 case AudioType.ButtonClick:
-                    _mainSource.PlayOneShot(_buttonClick);
+                   _buttonClickSource.PlayOneShot(_buttonClick);
                     break;
                 case AudioType.Error:
-                    _mainSource.PlayOneShot(_error);
+                   _buttonClickSource.PlayOneShot(_error);
                     break;
                 case AudioType.Move:
-                    _mainSource.PlayOneShot(_move);
+                   _buttonClickSource.PlayOneShot(_move);
                     break;
                 case AudioType.MoveToWaste:
-                    _mainSource.PlayOneShot(_moveToWaste);
+                   _buttonClickSource.PlayOneShot(_moveToWaste);
                     break;
                 case AudioType.MoveToPack:
-                    _mainSource.PlayOneShot(_moveToPack);
+                   _buttonClickSource.PlayOneShot(_moveToPack);
                     break;
                 case AudioType.MoveToAce:
                     PlayMoveToAceLogic();
                     break;
                 case AudioType.Win:
-                    _mainSource.PlayOneShot(_win);
+                   _buttonClickSource.PlayOneShot(_win);
                     break;
                 case AudioType.Hint:
-                    _mainSource.PlayOneShot(_hint);
+                   _buttonClickSource.PlayOneShot(_hint);
                     break;
                 case AudioType.WindowClose:
-                    _mainSource.PlayOneShot(_windowClose);
+                   _buttonClickSource.PlayOneShot(_windowClose);
                     break;
                 case AudioType.WindowOpen:
-                    _mainSource.PlayOneShot(_windowOpen);
+                   _buttonClickSource.PlayOneShot(_windowOpen);
                     break;
             }
         }
@@ -141,7 +142,7 @@ namespace SimpleSolitaire.Controller
 
             if (clip != null)
             {
-                _mainSource.PlayOneShot(_moveToAce[_moveToAceClipIdToPlay]);
+               _buttonClickSource.PlayOneShot(_moveToAce[_moveToAceClipIdToPlay]);
             }
             else
             {
