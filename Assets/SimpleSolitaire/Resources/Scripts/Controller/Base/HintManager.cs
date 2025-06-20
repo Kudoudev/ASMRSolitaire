@@ -78,14 +78,14 @@ namespace SimpleSolitaire.Controller
                     IsHintProcess = false;
                     StopCoroutine(HintCoroutine);
                 }
-                Debug.LogError("ok");
+                // Debug.LogError("ok");
 
                 HintCoroutine = HintTranslate(data);
                 StartCoroutine(HintCoroutine);
             }
             else
             {
-                Debug.LogError("vault");
+                // Debug.LogError("vault");
                 AudioController audioCtrl = AudioController.Instance;
                 if (audioCtrl != null)
                 {

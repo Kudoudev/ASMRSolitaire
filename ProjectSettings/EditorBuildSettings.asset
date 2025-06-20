@@ -11,22 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SimpleSolitaire/Resources/Scenes/GameScene_Klondike(UndoCountable).unity
     guid: 873d43b8e8d58f3428fad46c15e00341
-  - enabled: 1
-    path: Assets/SimpleSolitaire/Resources/Scenes/GameScene_Spider(UndoCountable).unity
-    guid: 514cd92c27964894794f2087c2fad32a
-  - enabled: 1
-    path: Assets/SimpleSolitaire/Resources/Scenes/GameScene_Freecell(UndoCountable).unity
-    guid: d7c46ea164b48334f9f36068841dac13
-  - enabled: 1
-    path: Assets/SimpleSolitaire/Resources/Scenes/GameScene_Tripeaks(UndoCountable).unity
-    guid: 08fddec2ae5d17d408d0e446d16fec3f
-  - enabled: 1
-    path: Assets/SimpleSolitaire/Resources/Scenes/GameScene_Pyramid(UndoCountable).unity
-    guid: eb2fbd55c84eb0b49bb67897b66378fc
-  - enabled: 1
-    path: Assets/SimpleSolitaire/Resources/Scenes/TripeaksLayoutCreator.unity
-    guid: 3a7a488cdba80a043be3e55b2c6118b1
-  - enabled: 1
-    path: Assets/SimpleSolitaire/Resources/Scenes/PyramidLayoutCreator.unity
-    guid: 8150b97a7f7184c48b6bc2b1b47070d2
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

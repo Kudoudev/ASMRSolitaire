@@ -273,9 +273,17 @@ namespace SimpleSolitaire.Controller
             var verticalSpace =
                 CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_VERTICAL_BOTTOM_OPENED);
             int m = 0;
-            for (int j = i; j < CardsCount; j++)
+
+            if (card.Deck.Type == DeckType.DECK_TYPE_WASTE)
             {
-                (CardsArray[j]).SetPosition(new Vector3(x, y - m++ * verticalSpace, 0));
+                (CardsArray[i]).SetPosition(new Vector3(x, y - m++ * verticalSpace, 0));
+            }
+            else
+            {
+                for (int j = i; j < CardsCount; j++)
+                {
+                    (CardsArray[j]).SetPosition(new Vector3(x, y - m++ * verticalSpace, 0));
+                }
             }
         }
 

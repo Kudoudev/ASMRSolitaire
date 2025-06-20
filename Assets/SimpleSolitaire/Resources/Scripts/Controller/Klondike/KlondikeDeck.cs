@@ -104,6 +104,7 @@ namespace SimpleSolitaire.Controller
                     var space = prevCard != null && prevCard.CardStatus == 1 ? 
                         CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_VERTICAL_BOTTOM_OPENED) :
                         CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_VERTICAL_BOTTOM_CLOSED);
+                        
                     var spaceMultiplier = prevCard != null ? 1 : 0;
                     var deckPos = gameObject.transform.position;
                     var prevPos = prevCard != null ? prevCard.gameObject.transform.position : deckPos;

@@ -157,7 +157,7 @@ namespace SimpleSolitaire.Controller
 
                 case DeckType.DECK_TYPE_WASTE:
                     OnTapToPlace();
-                    Debug.LogError("click");
+                    // Debug.LogError("click");
                     break;
 
 

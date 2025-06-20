@@ -15,7 +15,6 @@ namespace SimpleSolitaire.Controller
             List<HintElement> hints = data.Type == HintType.AutoComplete ? AutoCompleteHints : Hints;
             if (data.Type == HintType.AutoComplete) CurrentHintIndex = 0;
             if (data.Card != null) CurrentHintIndex = hints.FindIndex(x => x.HintCard == data.Card);
-
             if (data.Card != null && CurrentHintIndex == -1)
             {
                 AudioController audioCtrl = AudioController.Instance;
@@ -34,9 +33,7 @@ namespace SimpleSolitaire.Controller
             var t = 0f;
             Card hintCard = hints[CurrentHintIndex].HintCard;
             hintCard.Deck.UpdateCardsPosition(false);
-
             CurrentHintSiblingIndex = hintCard.transform.GetSiblingIndex();
-
             hintCard.Deck.SetCardsToTop(hintCard);
 
             while (t < 1)
