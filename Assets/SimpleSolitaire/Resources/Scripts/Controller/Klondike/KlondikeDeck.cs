@@ -30,33 +30,50 @@ namespace SimpleSolitaire.Controller
                     else if (Type == DeckType.DECK_TYPE_WASTE)
                     {
                         var wasteHorizontalSpace = CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_HORIONTAL_WASTE);
-                        
                         card.IsDraggable = false;
                         card.gameObject.transform.position = gameObject.transform.position;
-                        if (CardsArray.Count == 2)
+
+                        int count = CardsArray.Count;
+
+                        // Display up to 3 cards, and make them all draggable
+                        if (count >= 1 && i >= count - 3)
                         {
-                            if (i == 1)
-                            {
-                                card.gameObject.transform.position = gameObject.transform.position +
-                                                                     new Vector3(wasteHorizontalSpace, 0, 0);
-                                card.IsDraggable = true;
-                            }
-                        }
-                        else if (CardsArray.Count >= 3)
-                        {
-                            if (i == CardsArray.Count - 1)
-                            {
-                                card.gameObject.transform.position = gameObject.transform.position +
-                                                                     new Vector3(2 * wasteHorizontalSpace, 0, 0);
-                                card.IsDraggable = true;
-                            }
-                            else if (i == CardsArray.Count - 2)
-                            {
-                                card.gameObject.transform.position = gameObject.transform.position +
-                                                                     new Vector3(wasteHorizontalSpace, 0, 0);
-                            }
+                            int visibleIndex = i - (count - 3); // 0, 1, 2
+                            card.gameObject.transform.position = gameObject.transform.position + new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
+                            card.IsDraggable = true;
                         }
                     }
+
+                    // else if (Type == DeckType.DECK_TYPE_WASTE)
+                    // {
+                    //     var wasteHorizontalSpace = CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_HORIONTAL_WASTE);
+
+                    //     card.IsDraggable = false;
+                    //     card.gameObject.transform.position = gameObject.transform.position;
+                    //     if (CardsArray.Count == 2)
+                    //     {
+                    //         if (i == 1)
+                    //         {
+                    //             card.gameObject.transform.position = gameObject.transform.position +
+                    //                                                  new Vector3(wasteHorizontalSpace, 0, 0);
+                    //             card.IsDraggable = true;
+                    //         }
+                    //     }
+                    //     else if (CardsArray.Count >= 3)
+                    //     {
+                    //         if (i == CardsArray.Count - 1)
+                    //         {
+                    //             card.gameObject.transform.position = gameObject.transform.position +
+                    //                                                  new Vector3(2 * wasteHorizontalSpace, 0, 0);
+                    //             card.IsDraggable = true;
+                    //         }
+                    //         else if (i == CardsArray.Count - 2)
+                    //         {
+                    //             card.gameObject.transform.position = gameObject.transform.position +
+                    //                                                  new Vector3(wasteHorizontalSpace, 0, 0);
+                    //         }
+                    //     }
+                    // }
 
                     if (i == CardsArray.Count - 1)
                     {
@@ -108,11 +125,13 @@ namespace SimpleSolitaire.Controller
         public override bool AcceptCard(Card card)
         {
             Card topCard = GetTopCard();
+
             switch (Type)
             {
                 case DeckType.DECK_TYPE_BOTTOM:
                     if (topCard != null)
                     {
+                        //same type & card is higher than this card 1 value
                         if (topCard.CardColor != card.CardColor && topCard.Number == card.Number + 1)
                         {
                             return true;
@@ -124,6 +143,7 @@ namespace SimpleSolitaire.Controller
                     }
                     else
                     {
+                        //king
                         if (card.Number == 13)
                         {
                             return true;
@@ -133,7 +153,7 @@ namespace SimpleSolitaire.Controller
                     }
                 case DeckType.DECK_TYPE_ACE:
                     Deck srcDeck = card.Deck;
-                    if (srcDeck.GetTopCard() != card)
+                    if ((srcDeck.GetTopCard() != null && srcDeck.Type != DeckType.DECK_TYPE_WASTE) && srcDeck.GetTopCard() != card)
                     {
                         return false;
                     }
@@ -171,26 +191,30 @@ namespace SimpleSolitaire.Controller
                 {
                     return;
                 }
-
+                
                 Card topCard = CardsArray[CardsArray.Count - 1];
                 int topNumber = topCard.Number;
                 bool isDraggable = true;
                 topCard.IsDraggable = isDraggable;
 
-                for (int i = CardsArray.Count - 2; i >= 0; i--)
+                if (Type != DeckType.DECK_TYPE_WASTE)
                 {
-                    var card = CardsArray[i];
-                    int nextNumber = card.Number;
 
-                    if (card.CardStatus == 1 && nextNumber == topNumber + 1)
+                    for (int i = CardsArray.Count - 2; i >= 0; i--)
                     {
-                        card.IsDraggable = isDraggable;
-                        topNumber++;
-                    }
-                    else
-                    {
-                        isDraggable = false;
-                        card.IsDraggable = isDraggable;
+                        var card = CardsArray[i];
+                        int nextNumber = card.Number;
+
+                        if (card.CardStatus == 1 && nextNumber == topNumber + 1)
+                        {
+                            card.IsDraggable = isDraggable;
+                            topNumber++;
+                        }
+                        else
+                        {
+                            isDraggable = false;
+                            card.IsDraggable = isDraggable;
+                        }
                     }
                 }
             }

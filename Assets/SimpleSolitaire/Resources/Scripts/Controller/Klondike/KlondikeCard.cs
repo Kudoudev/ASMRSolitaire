@@ -5,10 +5,6 @@ namespace SimpleSolitaire.Controller
 {
     public class KlondikeCard : Card
     {
-        /// <summary>
-        /// Initialize card by number.
-        /// </summary>
-        /// <param name="cardNum">Card number.</param>
         public override void InitWithNumber(int cardNum)
         {
             CardNumber = cardNum;
@@ -19,7 +15,7 @@ namespace SimpleSolitaire.Controller
             {
                 CardColor = 1;
             }
-            else
+            else    
             {
                 CardColor = 0;
             }
@@ -31,9 +27,6 @@ namespace SimpleSolitaire.Controller
             SetBackgroundImg(path);
         }
 
-        /// <summary>
-        ///Called when user click on card double times in specific interval
-        /// </summary>
         protected override void OnTapToPlace()
         {
             CardLogicComponent.HintManagerComponent.HintAndSetByClick(this);

@@ -85,14 +85,11 @@ namespace SimpleSolitaire.Controller
             {
                 return;
             }
-
             _isDragging = true;
-
             CalculateCardSiblingIndex();
             _deck.SetCardsToTop(this);
             CardLogicComponent.ParticleStars.transform.SetParent(gameObject.transform);
             CardLogicComponent.ParticleStars.transform.SetAsFirstSibling();
-
             _coroutine = ActivateParticle();
             StartCoroutine(_coroutine);
         }
@@ -103,7 +100,6 @@ namespace SimpleSolitaire.Controller
             {
                 return;
             }
-
             RectTransformUtility.ScreenPointToWorldPointInRectangle(CardRect, Input.mousePosition,
                 eventData.enterEventCamera, out _newPosition);
             if (_lastMousePosition != Vector3.zero)
@@ -112,7 +108,11 @@ namespace SimpleSolitaire.Controller
                 transform.position += offset;
                 CardLogicComponent.ParticleStars.transform.position = new Vector3(transform.position.x,
                     transform.position.y - 20f, transform.position.z);
-                _deck.SetPositionFromCard(this, transform.position.x, transform.position.y);
+
+                if (this.Deck.Type != DeckType.DECK_TYPE_WASTE)
+                    _deck.SetPositionFromCard(this, transform.position.x, transform.position.y);
+                    
+                    
             }
 
             _lastMousePosition = _newPosition;
@@ -124,15 +124,17 @@ namespace SimpleSolitaire.Controller
             {
                 return;
             }
+            Debug.LogError("oed");
 
             transform.SetSiblingIndex(IndexZ);
             _lastMousePosition = Vector3.zero;
 
             if (_coroutine != null)
                 StopCoroutine(_coroutine);
-            CardLogicComponent.ParticleStars.Stop();
 
+            CardLogicComponent.ParticleStars.Stop();
             await CardLogicComponent.OnDragEnd(this);
+            
             _deck.UpdateCardsPosition(false);
 
             _isDragging = false;
@@ -152,9 +154,15 @@ namespace SimpleSolitaire.Controller
                     OnTapToPack(eventData);
                 }
                     break;
-                case DeckType.DECK_TYPE_BOTTOM:
+
                 case DeckType.DECK_TYPE_WASTE:
+                    OnTapToPlace();
+                    Debug.LogError("click");
+                    break;
+
+
                 case DeckType.DECK_TYPE_ACE:
+                case DeckType.DECK_TYPE_BOTTOM:
                 case DeckType.DECK_TYPE_FREECELL:
                 case DeckType.DECK_TYPE_TRIPEAKS:
                 case DeckType.DECK_TYPE_PYRAMID:
@@ -240,7 +248,6 @@ namespace SimpleSolitaire.Controller
             {
                 return;
             }
-
             Deck.OnPointerClick(eventData);
         }
 

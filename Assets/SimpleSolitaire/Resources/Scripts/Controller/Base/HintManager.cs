@@ -58,12 +58,13 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         protected void Hint(HintData data)
         {
-            if (Hints.Count > 0 && !IsHintProcess && gameObject.activeInHierarchy)
+            //Hints.Count > 0 &&
+            if (!IsHintProcess && gameObject.activeInHierarchy)
             {
                 if (data.HintButtonPressed)
                 {
                     // _adsManagerManager.TryShowIntersitialByCounter();
-                    
+
                     AudioController audioCtrl = AudioController.Instance;
 
                     if (audioCtrl != null)
@@ -77,12 +78,14 @@ namespace SimpleSolitaire.Controller
                     IsHintProcess = false;
                     StopCoroutine(HintCoroutine);
                 }
+                Debug.LogError("ok");
 
                 HintCoroutine = HintTranslate(data);
                 StartCoroutine(HintCoroutine);
             }
             else
             {
+                Debug.LogError("vault");
                 AudioController audioCtrl = AudioController.Instance;
                 if (audioCtrl != null)
                 {

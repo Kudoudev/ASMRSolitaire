@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using SimpleSolitaire.Model.Config;
 using SimpleSolitaire.Model.Enum;
 using UnityEngine;
@@ -181,7 +183,14 @@ namespace SimpleSolitaire.Controller
                         if (targetDeck.AcceptCard(card))
                         {
                             WriteUndoState();
-                            Card[] popCards = srcDeck.PopFromCard(card);
+                            var popCards = new Card[] { };
+                            if (card.Deck.Type == DeckType.DECK_TYPE_WASTE)
+                                popCards = new Card[] { srcDeck.PickDop(card) };
+
+                            else
+                                popCards = srcDeck.PopFromCard(card);
+
+
                             targetDeck.PushCardArray(popCards);
                             targetDeck.UpdateCardsPosition(false);
                             srcDeck.UpdateCardsPosition(false);

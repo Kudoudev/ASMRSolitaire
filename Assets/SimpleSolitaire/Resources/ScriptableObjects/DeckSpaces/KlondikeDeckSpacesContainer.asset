@@ -17,13 +17,13 @@ MonoBehaviour:
     Data:
     - Type: 1
       DividerType: 0
-      Divider: 3.5
+      Divider: 3
     - Type: 2
       DividerType: 0
-      Divider: 7
+      Divider: 3
     - Type: 3
       DividerType: 1
-      Divider: 2.2
+      Divider: 0.75
   - Screen: 1
     Data:
     - Type: 1

@@ -153,6 +153,24 @@ namespace SimpleSolitaire.Controller
             return cardArray;
         }
 
+        public Card PickDop(Card card)
+        {
+            int i = 0;
+            int count = CardsArray.Count;
+            while (i < count)
+            {
+                if ((Card)CardsArray[i] == card)
+                {
+                    var temp = CardsArray[i];
+                    CardsArray.RemoveAt(i);
+                    return temp;
+                }
+                i++;
+            }
+            Debug.LogError("no suit");
+            return null;
+        }
+
         public void RemoveCard(Card card)
         {
             int index = -1;

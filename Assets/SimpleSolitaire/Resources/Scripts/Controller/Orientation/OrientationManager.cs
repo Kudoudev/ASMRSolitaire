@@ -121,18 +121,18 @@ namespace SimpleSolitaire.Controller
         {
             _orientationContainer.Initialize(screen, hand);
 
-            _deckElements.ForEach(x =>
-            {
-                if (_orientationContainer.CurrentElements.TryGetValue(x.Key, out OrientationElement element))
-                {
-                    x.Fitter.aspectMode = _orientationContainer.CurrentOrientation.AspectMode;
-                    x.RectRoot.anchorMin = element.Anchor.Min;
-                    x.RectRoot.anchorMax = element.Anchor.Max;
-                    x.RectRoot.pivot = element.Pivot.Value;
-                    x.RectRoot.anchoredPosition = element.Position.Value;
-                    x.RectRoot.sizeDelta = element.Size.Value;
-                }
-            });
+            // _deckElements.ForEach(x =>
+            // {
+            //     if (_orientationContainer.CurrentElements.TryGetValue(x.Key, out OrientationElement element))
+            //     {
+            //         // x.Fitter.aspectMode = _orientationContainer.CurrentOrientation.AspectMode;
+            //         // x.RectRoot.anchorMin = element.Anchor.Min;
+            //         // x.RectRoot.anchorMax = element.Anchor.Max;
+            //         // x.RectRoot.pivot = element.Pivot.Value;
+            //         // x.RectRoot.anchoredPosition = element.Position.Value;
+            //         // x.RectRoot.sizeDelta = element.Size.Value;
+            //     }
+            // });
 
             yield return new WaitForEndOfFrame();
 
@@ -179,17 +179,17 @@ namespace SimpleSolitaire.Controller
 
             _deckElements.ForEach(x =>
             {
-                if (_orientationContainer.CurrentElements.TryGetValue(x.Key, out OrientationElement element))
-                {
-                    x.Fitter.aspectMode = _orientationContainer.CurrentOrientation.AspectMode;
-                    x.RectRoot.anchorMin = element.Anchor.Min;
-                    x.RectRoot.anchorMax = element.Anchor.Max;
-                    x.RectRoot.pivot = element.Pivot.Value;
-                    x.RectRoot.anchoredPosition = element.Position.Value;
-                    x.RectRoot.sizeDelta = element.Size.Value;
-                    UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(x.Fitter);
-                    UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(x.RectRoot);
-                }
+                // if (_orientationContainer.CurrentElements.TryGetValue(x.Key, out OrientationElement element))
+                // {
+                //     x.Fitter.aspectMode = _orientationContainer.CurrentOrientation.AspectMode;
+                //     x.RectRoot.anchorMin = element.Anchor.Min;
+                //     x.RectRoot.anchorMax = element.Anchor.Max;
+                //     x.RectRoot.pivot = element.Pivot.Value;
+                //     x.RectRoot.anchoredPosition = element.Position.Value;
+                //     x.RectRoot.sizeDelta = element.Size.Value;
+                //     UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(x.Fitter);
+                //     UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(x.RectRoot);
+                // }
             });
 
             _cardLogic.InitializeSpacesDictionary();

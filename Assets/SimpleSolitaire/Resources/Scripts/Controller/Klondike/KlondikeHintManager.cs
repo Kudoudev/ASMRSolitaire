@@ -24,7 +24,7 @@ namespace SimpleSolitaire.Controller
                     audioCtrl.Play(AudioController.AudioType.Error);
                 }
                 
-                Debug.LogWarning("After double tap! This Card: " + data.Card.CardNumber +
+                Debug.LogError("After double tap! This Card: " + data.Card.CardNumber +
                                  " is not available for complete to ace pack.");
                 IsHintProcess = false;
                 CurrentHintIndex = 0;
@@ -52,7 +52,7 @@ namespace SimpleSolitaire.Controller
             }
 
             if (IsHasHint() && data.Type == HintType.Hint)
-            {
+            {   
                 hintCard.Deck.UpdateCardsPosition(false);
                 hintCard.transform.position = hints[CurrentHintIndex].FromPosition;
                 hintCard.transform.SetSiblingIndex(CurrentHintSiblingIndex);
@@ -72,6 +72,7 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         protected override void GenerateHints(bool isAutoComplete = false)
         {
+            Debug.LogError("try");
             CurrentHintIndex = 0;
             AutoCompleteHints = new List<HintElement>();
             Hints = new List<HintElement>();
@@ -92,10 +93,10 @@ namespace SimpleSolitaire.Controller
                                 Card topTargetDeckCard = targetDeck.GetTopCard();
                                 Card topDeckCard = card.Deck.GetPreviousFromCard(card);
 
-                                if (card.Deck.Type == DeckType.DECK_TYPE_ACE)
-                                {
-                                    continue;
-                                }
+                                // if (card.Deck.Type == DeckType.DECK_TYPE_ACE)
+                                // {
+                                //     continue;
+                                // }
 
                                 if (topDeckCard == null && topTargetDeckCard == null &&
                                     targetDeck.Type != DeckType.DECK_TYPE_ACE)
@@ -112,11 +113,10 @@ namespace SimpleSolitaire.Controller
                                 }
 
                                 if (topDeckCard != null && topTargetDeckCard != null &&
-                                    topDeckCard.Number == topTargetDeckCard.Number && topDeckCard.CardStatus == 1 &&
-                                    card.Deck.Type != DeckType.DECK_TYPE_WASTE)
+                                    topDeckCard.Number == topTargetDeckCard.Number && topDeckCard.CardStatus == 1
+                                  &&  card.Deck.Type != DeckType.DECK_TYPE_WASTE)
                                 {
                                     isHasAutoCompleteHints = false;
-
                                     if (isAutoComplete)
                                     {
                                         continue;
