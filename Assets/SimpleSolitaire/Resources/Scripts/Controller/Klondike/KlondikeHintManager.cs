@@ -23,8 +23,8 @@ namespace SimpleSolitaire.Controller
                     audioCtrl.Play(AudioController.AudioType.Error);
                 }
                 
-                Debug.LogError("After double tap! This Card: " + data.Card.CardNumber +
-                                 " is not available for complete to ace pack.");
+                // Debug.LogError("After double tap! This Card: " + data.Card.CardNumber +
+                                //  " is not available for complete to ace pack.");
                 IsHintProcess = false;
                 CurrentHintIndex = 0;
                 yield break;
