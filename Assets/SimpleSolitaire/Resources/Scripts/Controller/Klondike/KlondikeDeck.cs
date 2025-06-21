@@ -16,7 +16,7 @@ namespace SimpleSolitaire.Controller
         {
             for (int i = 0; i < CardsArray.Count; i++)
             {
-                Debug.LogError("update card pos: " +CardsArray[i].name);
+                // Debug.LogError("update card pos: " +CardsArray[i].name);
                 Card card = (Card) CardsArray[i];
                 card.transform.SetAsLastSibling();
                 if (Type == DeckType.DECK_TYPE_PACK)
@@ -24,11 +24,15 @@ namespace SimpleSolitaire.Controller
                     card.IsDraggable = false;
                     // card.gameObject.transform.position = gameObject.transform.position;
                     if (!card.dicked)
-                        card.gameObject.transform.DOMove(gameObject.transform.position, DT).onComplete = (()=>
+                        card.gameObject.transform.DOMove(gameObject.transform.position, DT).onComplete = (() =>
                         {
                             card.dicked = false;
                         });
 
+                    else
+                    {
+                        card.gameObject.transform.position = gameObject.transform.position;
+                    }
                     card.RestoreBackView();
 
                 }
@@ -42,6 +46,10 @@ namespace SimpleSolitaire.Controller
                         {
                             card.dicked = false;
                         });
+                        else
+                        {
+                            card.gameObject.transform.position = gameObject.transform.position;
+                        }
                     }
                     else if (Type == DeckType.DECK_TYPE_WASTE)
                     {
@@ -57,13 +65,24 @@ namespace SimpleSolitaire.Controller
                                                                     //65f -> 65% equal to 0.65 in waste space
                                                                     // card.gameObject.transform.position = gameObject.transform.position +(Vector3.right*Screen.width * 65f/100f) + new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
                             if (!card.dicked)
+                            {
                                 card.gameObject.transform.DOMove(gameObject.transform.position +
-                                (Vector3.right * Screen.width * 65f / 100f) +
-                                 new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0), DT).onComplete = (() =>
-                        {
-                            card.dicked = false;
-                        });;
+                                                              (Vector3.right * Screen.width * 65f / 100f) +
+                                                               new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0), DT).onComplete = (() =>
+                                                              {
+                                                                  card.dicked = false;
+                                                              });
+                            }
+                            else
+                            {
+                                card.gameObject.transform.position = gameObject.transform.position +
+                                                             (Vector3.right * Screen.width * 65f / 100f) +
+                                                              new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
+                            }
+                              
+
                             
+
                             card.IsDraggable = true;
                         }
                     }
@@ -106,6 +125,10 @@ namespace SimpleSolitaire.Controller
 
                     if (!card.dicked)
                         card.gameObject.transform.position = curPos;
+                    else
+                    {
+                        card.gameObject.transform.position = curPos;
+                    }
 
 
                 

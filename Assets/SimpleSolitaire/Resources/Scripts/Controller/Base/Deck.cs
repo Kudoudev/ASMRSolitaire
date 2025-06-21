@@ -276,7 +276,8 @@ namespace SimpleSolitaire.Controller
 
             if (card.Deck.Type == DeckType.DECK_TYPE_WASTE)
             {
-                (CardsArray[i]).SetPosition(new Vector3(x, y - m++ * verticalSpace, 0));
+                if (CardsArray[i] != null)
+                    (CardsArray[i]).SetPosition(new Vector3(x, y - m++ * verticalSpace, 0));
             }
             else
             {
