@@ -17,7 +17,7 @@ namespace SimpleSolitaire.Controller
             for (int i = 0; i < CardsArray.Count; i++)
             {
                 // Debug.LogError("update card pos: " +CardsArray[i].name);
-                Card card = (Card) CardsArray[i];
+                Card card = (Card)CardsArray[i];
                 card.transform.SetAsLastSibling();
                 if (Type == DeckType.DECK_TYPE_PACK)
                 {
@@ -87,19 +87,37 @@ namespace SimpleSolitaire.Controller
                                                              (Vector3.right * Screen.width * 65f / 100f) +
                                                               new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
                             }
-                              
 
-                            
+
+
 
                             card.IsDraggable = true;
                         }
                     }
 
+                    //last card in deck
                     if (i == CardsArray.Count - 1)
                     {
-                        card.IsDraggable = true;
-                        card.CardStatus = 1;
-                        card.UpdateCardImg();
+                        if (card.CardStatus != 0)
+                        {
+                            card.IsDraggable = true;
+                            card.CardStatus = 1;
+                            card.UpdateCardImg();
+                        }
+                        else
+                        {
+                            card.CardStatus = 1;
+                            KlondikeHintManager.I.Schedule(0.05f, () =>
+                            {
+                                card.UpdateCardImg();
+                            });
+                            card.transform.DOLocalRotate(new Vector3(0, -90f, 0), DT).From().onComplete = (() =>
+                            {
+                                card.IsDraggable = true;
+                            });
+                        }
+
+
                     }
                     else
                     {
@@ -107,9 +125,10 @@ namespace SimpleSolitaire.Controller
                         {
                             card.IsDraggable = false;
                             card.CardStatus = 0;
+                            card.UpdateCardImg();
+
                         }
 
-                        card.UpdateCardImg();
                     }
                 }
             }
@@ -219,7 +238,7 @@ namespace SimpleSolitaire.Controller
                 {
                     return;
                 }
-                
+
                 Card topCard = CardsArray[CardsArray.Count - 1];
                 int topNumber = topCard.Number;
                 bool isDraggable = true;
@@ -250,7 +269,22 @@ namespace SimpleSolitaire.Controller
 
         public override void UpdateBackgroundColor()
         {
-            
+
         }
+    }
+}
+
+
+static public class DickExtension
+{
+    static public void Schedule(this MonoBehaviour mono,  float delay, System.Action action)
+    {
+        mono.StartCoroutine(ScheduleCoroutine(action, delay));
+    }
+
+    static private System.Collections.IEnumerator ScheduleCoroutine(System.Action action, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        action?.Invoke();
     }
 }
