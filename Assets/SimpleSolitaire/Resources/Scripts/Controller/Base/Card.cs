@@ -15,7 +15,7 @@ namespace SimpleSolitaire.Controller
         public int CardStatus = 0;
         public int CardColor = 0;
         public bool IsDraggable = false;
-        public bool dicked;
+        public bool dicked, scaled;
 
         public int IndexZ;
 

@@ -9,6 +9,13 @@ namespace SimpleSolitaire.Controller
     public class KlondikeHintManager : HintManager
     {
         public AnimationCurve ease;
+        static public KlondikeHintManager I;
+        public bool Locked{ get; set; }
+
+        void Awake()
+        {
+            I = this;  
+        }
         protected override IEnumerator HintTranslate(HintData data)
         {
             IsHintProcess = true;
@@ -37,14 +44,13 @@ namespace SimpleSolitaire.Controller
             hintCard.Deck.UpdateCardsPosition(false);
             CurrentHintSiblingIndex = hintCard.transform.GetSiblingIndex();
             hintCard.Deck.SetCardsToTop(hintCard);
-
             var pos = hintCard.transform.position;
+            Locked = true;
             while (t < 1)
             {
                 t += Time.deltaTime / data.HintTime;
                 hintCard.transform.position = Vector3.Lerp(pos,
                     hints[CurrentHintIndex].ToPosition, ease.Evaluate(t));
-
                 yield return new WaitForEndOfFrame();
                 hints[CurrentHintIndex].HintCard.Deck.SetPositionFromCard(hintCard,
                     hintCard.transform.position.x,
@@ -58,7 +64,7 @@ namespace SimpleSolitaire.Controller
                 hintCard.transform.SetSiblingIndex(CurrentHintSiblingIndex);
                 CurrentHintIndex = CurrentHintIndex == hints.Count - 1 ? CurrentHintIndex = 0 : CurrentHintIndex + 1;
             }
-
+            Locked = false;
             if (data.Type != HintType.Hint)
             {
                 _cardLogicComponent.OnDragEnd(hintCard);

@@ -72,6 +72,14 @@ namespace SimpleSolitaire.Controller
                                                               {
                                                                   card.dicked = false;
                                                               });
+
+                                if (!card.scaled)
+                                {
+                                    card.CardRect.pivot = new Vector2(1, 0.5f);
+                                    card.transform.DOScaleX(0f, DT).From().SetDelay(0.05f);
+                                    card.scaled = true;
+                                }
+
                             }
                             else
                             {
@@ -129,9 +137,6 @@ namespace SimpleSolitaire.Controller
                     {
                         card.gameObject.transform.position = curPos;
                     }
-
-
-                
 
                 }
 

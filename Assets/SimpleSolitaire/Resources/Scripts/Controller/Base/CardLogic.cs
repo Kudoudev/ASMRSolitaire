@@ -245,7 +245,9 @@ namespace SimpleSolitaire.Controller
             int cardNums = WasteDeck.CardsCount;
             for (int i = 0; i < cardNums; i++)
             {
-                PackDeck.PushCard(WasteDeck.Pop());
+                var card = WasteDeck.Pop();
+                card.scaled = false;
+                PackDeck.PushCard(card);
             }
 
             PackDeck.UpdateCardsPosition(false);

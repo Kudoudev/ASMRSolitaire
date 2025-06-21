@@ -262,10 +262,12 @@ namespace SimpleSolitaire.Controller
         public virtual void SetPositionFromCard(Card card, float x, float y)
         {
             int i;
+            Card daCard = null;
             for (i = 0; i < CardsCount; i++)
             {
                 if (CardsArray[i] == card)
                 {
+                    daCard =CardsArray[i];
                     break;
                 }
             }
@@ -276,8 +278,10 @@ namespace SimpleSolitaire.Controller
 
             if (card.Deck.Type == DeckType.DECK_TYPE_WASTE)
             {
-                if (CardsArray[i] != null)
+                if (CardsArray.Count > i)
                     (CardsArray[i]).SetPosition(new Vector3(x, y - m++ * verticalSpace, 0));
+                // else
+                    // daCard.SetPosition(new Vector3(x, y - m++ * verticalSpace, 0));
             }
             else
             {
