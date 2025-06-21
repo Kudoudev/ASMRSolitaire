@@ -1,4 +1,5 @@
-﻿using SimpleSolitaire.Model.Enum;
+﻿using DG.Tweening;
+using SimpleSolitaire.Model.Enum;
 using UnityEngine;
 
 namespace SimpleSolitaire.Controller
@@ -9,71 +10,63 @@ namespace SimpleSolitaire.Controller
         /// Update card position in game by solitaire style
         /// </summary>
         /// <param name="firstTime">If it first game update</param>
+        /// 
+        float DT = 0.35f;
         public override void UpdateCardsPosition(bool firstTime)
         {
             for (int i = 0; i < CardsArray.Count; i++)
             {
+                Debug.LogError("update card pos: " +CardsArray[i].name);
                 Card card = (Card) CardsArray[i];
                 card.transform.SetAsLastSibling();
                 if (Type == DeckType.DECK_TYPE_PACK)
                 {
                     card.IsDraggable = false;
-                    card.gameObject.transform.position = gameObject.transform.position;
+                    // card.gameObject.transform.position = gameObject.transform.position;
+                    if (!card.dicked)
+                        card.gameObject.transform.DOMove(gameObject.transform.position, DT).onComplete = (()=>
+                        {
+                            card.dicked = false;
+                        });
+
                     card.RestoreBackView();
+
                 }
                 else
                 {
                     if (Type == DeckType.DECK_TYPE_ACE)
                     {
-                        card.gameObject.transform.position = gameObject.transform.position;
+                        // card.gameObject.transform.position = gameObject.transform.position;
+                        if (!card.dicked)
+                            card.gameObject.transform.DOMove(gameObject.transform.position, DT).onComplete = (() =>
+                        {
+                            card.dicked = false;
+                        });
                     }
                     else if (Type == DeckType.DECK_TYPE_WASTE)
                     {
                         var wasteHorizontalSpace = CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_HORIONTAL_WASTE);
                         card.IsDraggable = false;
-                        card.gameObject.transform.position = gameObject.transform.position;
-
+                        // card.gameObject.transform.position = gameObject.transform.position;
                         int count = CardsArray.Count;
-
                         // Display up to 3 cards, and make them all draggable
-                        if (count >= 1 && i >= count - 3)
+
+                        if (count >= 0 && i >= count - 3)
                         {
-                            int visibleIndex = i - (count - 3); // 0, 1, 2
-                            card.gameObject.transform.position = gameObject.transform.position + new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
+                            float visibleIndex = (i - (count + 3)); // 0, 1, 2
+                                                                    //65f -> 65% equal to 0.65 in waste space
+                                                                    // card.gameObject.transform.position = gameObject.transform.position +(Vector3.right*Screen.width * 65f/100f) + new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
+                            if (!card.dicked)
+                                card.gameObject.transform.DOMove(gameObject.transform.position +
+                                (Vector3.right * Screen.width * 65f / 100f) +
+                                 new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0), DT).onComplete = (() =>
+                        {
+                            card.dicked = false;
+                        });;
+                            
                             card.IsDraggable = true;
                         }
                     }
-
-                    // else if (Type == DeckType.DECK_TYPE_WASTE)
-                    // {
-                    //     var wasteHorizontalSpace = CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_HORIONTAL_WASTE);
-
-                    //     card.IsDraggable = false;
-                    //     card.gameObject.transform.position = gameObject.transform.position;
-                    //     if (CardsArray.Count == 2)
-                    //     {
-                    //         if (i == 1)
-                    //         {
-                    //             card.gameObject.transform.position = gameObject.transform.position +
-                    //                                                  new Vector3(wasteHorizontalSpace, 0, 0);
-                    //             card.IsDraggable = true;
-                    //         }
-                    //     }
-                    //     else if (CardsArray.Count >= 3)
-                    //     {
-                    //         if (i == CardsArray.Count - 1)
-                    //         {
-                    //             card.gameObject.transform.position = gameObject.transform.position +
-                    //                                                  new Vector3(2 * wasteHorizontalSpace, 0, 0);
-                    //             card.IsDraggable = true;
-                    //         }
-                    //         else if (i == CardsArray.Count - 2)
-                    //         {
-                    //             card.gameObject.transform.position = gameObject.transform.position +
-                    //                                                  new Vector3(wasteHorizontalSpace, 0, 0);
-                    //         }
-                    //     }
-                    // }
 
                     if (i == CardsArray.Count - 1)
                     {
@@ -101,19 +94,25 @@ namespace SimpleSolitaire.Controller
                     Card card = CardsArray[i];
                     Card prevCard = i > 0 ? CardsArray[i - 1] : null;
 
-                    var space = prevCard != null && prevCard.CardStatus == 1 ? 
+                    var space = prevCard != null && prevCard.CardStatus == 1 ?
                         CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_VERTICAL_BOTTOM_OPENED) :
                         CardLogicComponent.GetSpaceFromDictionary(DeckSpacesTypes.DECK_SPACE_VERTICAL_BOTTOM_CLOSED);
-                        
+
                     var spaceMultiplier = prevCard != null ? 1 : 0;
                     var deckPos = gameObject.transform.position;
                     var prevPos = prevCard != null ? prevCard.gameObject.transform.position : deckPos;
 
                     var curPos = prevPos - new Vector3(0, space, 0) * spaceMultiplier;
-                    card.gameObject.transform.position = curPos;
-                }
-            }
 
+                    if (!card.dicked)
+                        card.gameObject.transform.position = curPos;
+
+
+                
+
+                }
+
+            }
             UpdateCardsActiveStatus();
         }
 

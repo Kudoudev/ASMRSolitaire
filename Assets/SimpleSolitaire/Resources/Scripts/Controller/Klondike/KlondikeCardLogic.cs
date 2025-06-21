@@ -185,7 +185,10 @@ namespace SimpleSolitaire.Controller
                             WriteUndoState();
                             var popCards = new Card[] { };
                             if (card.Deck.Type == DeckType.DECK_TYPE_WASTE)
+                            {
                                 popCards = new Card[] { srcDeck.PickDop(card) };
+                                card.dicked = true;
+                            }
 
                             else
                                 popCards = srcDeck.PopFromCard(card);

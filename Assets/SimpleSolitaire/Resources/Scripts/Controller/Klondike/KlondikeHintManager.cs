@@ -8,6 +8,7 @@ namespace SimpleSolitaire.Controller
 {
     public class KlondikeHintManager : HintManager
     {
+        public AnimationCurve ease;
         protected override IEnumerator HintTranslate(HintData data)
         {
             IsHintProcess = true;
@@ -22,9 +23,9 @@ namespace SimpleSolitaire.Controller
                 {
                     audioCtrl.Play(AudioController.AudioType.Error);
                 }
-                
+
                 // Debug.LogError("After double tap! This Card: " + data.Card.CardNumber +
-                                //  " is not available for complete to ace pack.");
+                //  " is not available for complete to ace pack.");
                 IsHintProcess = false;
                 CurrentHintIndex = 0;
                 yield break;
@@ -32,15 +33,17 @@ namespace SimpleSolitaire.Controller
 
             var t = 0f;
             Card hintCard = hints[CurrentHintIndex].HintCard;
+            hintCard.dicked = true;
             hintCard.Deck.UpdateCardsPosition(false);
             CurrentHintSiblingIndex = hintCard.transform.GetSiblingIndex();
             hintCard.Deck.SetCardsToTop(hintCard);
 
+            var pos = hintCard.transform.position;
             while (t < 1)
             {
                 t += Time.deltaTime / data.HintTime;
-                hintCard.transform.position = Vector3.Lerp(hints[CurrentHintIndex].FromPosition,
-                    hints[CurrentHintIndex].ToPosition, t);
+                hintCard.transform.position = Vector3.Lerp(pos,
+                    hints[CurrentHintIndex].ToPosition, ease.Evaluate(t));
 
                 yield return new WaitForEndOfFrame();
                 hints[CurrentHintIndex].HintCard.Deck.SetPositionFromCard(hintCard,
@@ -49,7 +52,7 @@ namespace SimpleSolitaire.Controller
             }
 
             if (IsHasHint() && data.Type == HintType.Hint)
-            {   
+            {
                 hintCard.Deck.UpdateCardsPosition(false);
                 hintCard.transform.position = hints[CurrentHintIndex].FromPosition;
                 hintCard.transform.SetSiblingIndex(CurrentHintSiblingIndex);

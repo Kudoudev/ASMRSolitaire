@@ -23,7 +23,7 @@ MonoBehaviour:
       Divider: 3
     - Type: 3
       DividerType: 1
-      Divider: 0.75
+      Divider: 0.65
   - Screen: 1
     Data:
     - Type: 1
