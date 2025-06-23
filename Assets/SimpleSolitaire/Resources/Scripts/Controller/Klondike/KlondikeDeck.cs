@@ -87,10 +87,6 @@ namespace SimpleSolitaire.Controller
                                                              (Vector3.right * Screen.width * 65f / 100f) +
                                                               new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
                             }
-
-
-
-
                             card.IsDraggable = true;
                         }
                     }

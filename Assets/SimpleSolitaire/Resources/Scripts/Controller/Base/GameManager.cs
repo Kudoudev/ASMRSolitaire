@@ -1,4 +1,5 @@
-﻿using SimpleSolitaire.Model.Config;
+﻿using DG.Tweening;
+using SimpleSolitaire.Model.Config;
 using SimpleSolitaire.Model.Enum;
 using System;
 using System.Collections;
@@ -116,7 +117,7 @@ namespace SimpleSolitaire.Controller
         private bool _soundEnable;
         private bool _autoCompleteEnable;
 
-        protected float _windowAnimationTime = 0.42f;
+        protected float _windowAnimationTime = 0.0f;
         
         private bool _isShouldOpenSettings = false;
         
@@ -158,11 +159,14 @@ namespace SimpleSolitaire.Controller
                 return;
             }
 
-            var anim = window.GetComponent<Animator>();
-
-            if (anim == null)
+            var rect = window.GetComponentInChildren<OrientationLayerScaler>().GetComponent<RectTransform>();
+            if (rect)
             {
-                return;
+                rect.pivot = new Vector2(0.5f, 0f);
+                rect.transform.DOKill();
+
+                rect.transform.DOScale(0f, 0.0f);
+                rect.transform.DOScale(1f, 0.35f);
             }
 
             if (_audioController != null)
@@ -170,7 +174,6 @@ namespace SimpleSolitaire.Controller
                 _audioController.Play(AudioController.AudioType.WindowOpen);
             }
 
-            anim.SetTrigger(_appearTrigger);
         }
 
         /// <summary>
@@ -183,19 +186,21 @@ namespace SimpleSolitaire.Controller
                 return;
             }
 
-            var anim = window.GetComponent<Animator>();
-
-            if (anim == null)
+            var rect = window.GetComponentInChildren<OrientationLayerScaler>().GetComponent<RectTransform>();
+            if (rect)
             {
-                return;
+                rect.pivot = new Vector2(0.5f, 0f);
+
+                rect.transform.DOKill();
+                rect.transform.DOScale(1f, 0.0f);
+                rect.transform.DOScale(0f, 0.35f);
+
             }
 
             if (_audioController != null)
             {
                 _audioController.Play(AudioController.AudioType.WindowClose);
             }
-
-            anim.SetTrigger(_disappearTrigger);
 
             StartCoroutine(InvokeAction(onDisappear, _windowAnimationTime));
         }
@@ -601,7 +606,7 @@ namespace SimpleSolitaire.Controller
         {
             _isShouldOpenSettings = true;
             _howToPlayComponent.SetFirstPage();
-            StartCoroutine(InvokeAction(delegate { OnClickSettingLayerCloseBtn(); Invoke(nameof(OnHowToPlayAppearing), _windowAnimationTime); }, 0f));
+            StartCoroutine(InvokeAction(delegate { OnClickSettingLayerCloseBtn(true); Invoke(nameof(OnHowToPlayAppearing), _windowAnimationTime); }, 0f));
         }
 
         /// <summary>
@@ -615,10 +620,10 @@ namespace SimpleSolitaire.Controller
             {
                 _howToPlayLayer.SetActive(false);
 
-                if (_isShouldOpenSettings)
-                {
-                    OnClickSettingBtn();
-                }
+                // if (_isShouldOpenSettings)
+                // {
+                //     OnClickSettingBtn();
+                // }
             }
         }
 
@@ -638,7 +643,7 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         public void OnClickSettingBtn()
         {
-            _cardLayer.SetActive(false);
+            // _cardLayer.SetActive(false);
             _settingLayer.SetActive(true);
             AppearWindow(_settingLayer);
         }
@@ -646,9 +651,14 @@ namespace SimpleSolitaire.Controller
         /// <summary>
         /// Close <see cref="_settingLayer"/>.
         /// </summary>
-        public void OnClickSettingLayerCloseBtn()
+        public void OnClickSettingLayerCloseBtn(bool skipAnim = false)
         {
-            DisappearWindow(_settingLayer, OnWindowDisappeared);
+            if (!skipAnim)
+                DisappearWindow(_settingLayer, OnWindowDisappeared);
+            else
+            {
+                OnWindowDisappeared();
+            }
 
             void OnWindowDisappeared()
             {
@@ -664,7 +674,7 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         public void OnClickStatisticBtn()
         {
-            StartCoroutine(InvokeAction(delegate { OnClickSettingLayerCloseBtn(); Invoke(nameof(OnStatisticAppearing), _windowAnimationTime); }, 0f));
+            StartCoroutine(InvokeAction(delegate { OnClickSettingLayerCloseBtn(true); Invoke(nameof(OnStatisticAppearing), _windowAnimationTime); }, 0f));
         }
 
         /// <summary>
@@ -687,7 +697,7 @@ namespace SimpleSolitaire.Controller
         protected virtual void OnStatisticsLayerClosed()
         {
             _statisticLayer.SetActive(false);
-            OnClickSettingBtn();
+            // OnClickSettingBtn();
         }
         #endregion
 
@@ -786,6 +796,13 @@ namespace SimpleSolitaire.Controller
         public void AddScoreValue(int value)
         {
             _scoreCount += value;
+
+            _scoreLabel.DOKill();
+            _scoreLabel.transform.DOScale(1.25f, 0.2f).SetEase(Ease.InOutSine).onComplete = (() =>
+            {
+                _scoreLabel.transform.DOScale(1f, 0.2f).SetEase(Ease.InOutSine).SetDelay(0.2f);
+            });
+
             if (_scoreCount < 0)
             {
                 _scoreCount = 0;
@@ -814,7 +831,6 @@ namespace SimpleSolitaire.Controller
         {
             _orientationManager.SetHandOrientation(_orientationManager.HandOrientation == HandOrientation.RIGHT ? HandOrientation.LEFT : HandOrientation.RIGHT);
             _orientationManager.SetOrientation();
-            
             _orientationSwitcher.UpdateSwitchImg(_orientationManager.HandOrientation != HandOrientation.LEFT);
 
         }

@@ -125,8 +125,6 @@ namespace SimpleSolitaire.Controller
             {
                 return;
             }
-            Debug.LogError("oed");
-
             transform.SetSiblingIndex(IndexZ);
             _lastMousePosition = Vector3.zero;
 

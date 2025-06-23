@@ -911,7 +911,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: DOTWEEN
+    Android: DOTWEEN;LEVELPLAY_DEPENDENCIES_INSTALLED
     EmbeddedLinux: DOTWEEN
     GameCoreScarlett: DOTWEEN
     GameCoreXboxOne: DOTWEEN
@@ -1034,7 +1034,7 @@ PlayerSettings:
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
-    Purchasing: 0
+    Purchasing: 1
     UNet: 1
     Unity_Ads: 0
   luminIcon:
@@ -1058,11 +1058,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 724a4bdd-0dfa-470f-abe8-8ac95857e9be
+  cloudProjectId: 59974d29-a919-400c-b9d5-fa00f6cde197
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: SOliterai
-  organizationId: mytechnology
+  projectName: ASMR Mahjong
+  organizationId: kudoudev
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   hmiLoadingImage: {fileID: 0}
