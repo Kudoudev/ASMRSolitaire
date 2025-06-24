@@ -408,6 +408,7 @@ namespace SimpleSolitaire.Controller
         public void OnClickPlayBtn()
         {
             _cardLayer.SetActive(false);
+            _settingLayer.SetActive(false);
             AppearGameLayer();
         }
 
