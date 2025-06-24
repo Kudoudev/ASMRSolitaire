@@ -86,6 +86,10 @@ namespace SimpleSolitaire.Controller
         [SerializeField]
         private SwitchSpriteComponent _soundSwitcher;
         [SerializeField]
+        private SwitchSpriteComponent _bgmSwitcher, _hapticSwitcher;
+
+
+        [SerializeField]
         private SwitchSpriteComponent _autoCompleteSwitcher;
         [SerializeField]
         private SwitchSpriteComponent _orientationSwitcher;
@@ -110,11 +114,32 @@ namespace SimpleSolitaire.Controller
         private int _scoreCount;
         private Coroutine _timeCoroutine;
         private AudioController _audioController;
+        public AudioSource _bgmController;
 
         private RewardAdsType _currentAdsType = RewardAdsType.None;
 
         private bool _highlightDraggableEnable;
-        private bool _soundEnable;
+        private bool _soundEnable
+        {
+            get => Data.sfx;
+            set => Data.sfx = value;
+        }
+
+        private bool _bgmEnable
+        {
+            get => Data.music;
+            set => Data.music = value;
+        }
+
+
+        private bool _hapticEnable
+        {
+            get => Data.haptic;
+            set => Data.haptic = value;
+        }
+
+
+
         private bool _autoCompleteEnable;
 
         protected float _windowAnimationTime = 0.0f;
@@ -135,12 +160,16 @@ namespace SimpleSolitaire.Controller
 
             _undoPerformComponent.Initialize();
 
-            _soundEnable = true;
+            // _soundEnable = true;
             _autoCompleteEnable = true;
-            
+
             // _adsManagerComponent.RewardAction += OnRewardActionState;
             _cardLogic.SubscribeEvents();
             _audioController = AudioController.Instance;
+
+            UpdateSFX();
+            UpdateBGM();
+            UpdateHaptic();
         }
 
         private void Start()
@@ -816,6 +845,38 @@ namespace SimpleSolitaire.Controller
         public void OnClickSoundSwitch()
         {
             _soundEnable = !_soundEnable;
+            UpdateSFX();
+        }
+
+        public void OnClickBGMSwitch()
+        {
+            _bgmEnable = !_bgmEnable;
+            UpdateBGM();
+        }
+
+
+        public void OnClickHapticSwitch()
+        {
+            _hapticEnable = !_hapticEnable;
+            UpdateHaptic();
+        }
+
+        void UpdateHaptic()
+        {
+            _hapticSwitcher.UpdateSwitchImg(_hapticEnable);
+        }
+
+        void UpdateBGM()
+        {
+            _bgmSwitcher.UpdateSwitchImg(_bgmEnable);
+
+            if (_bgmController != null)
+            {
+                _bgmController.mute = (!_bgmEnable);
+            }
+        }
+        void UpdateSFX()
+        {
             _soundSwitcher.UpdateSwitchImg(_soundEnable);
 
             if (_audioController != null)
@@ -823,7 +884,6 @@ namespace SimpleSolitaire.Controller
                 _audioController.SetMute(!_soundEnable);
             }
         }
-
         /// <summary>
         /// Click on hand orientation switch button.
         /// </summary>

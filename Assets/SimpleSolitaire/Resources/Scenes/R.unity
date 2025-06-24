@@ -194,6 +194,175 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81682407}
   m_CullTransparentMesh: 1
+--- !u!1 &751460344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751460346}
+  - component: {fileID: 751460345}
+  m_Layer: 0
+  m_Name: Notification
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &751460345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751460344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d39d9eff86cf413984ef1aafe33d447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dailyMessages:
+  - title: "Time to Unwind \U0001F4A4"
+    description: "Clear your mind with soft card sounds and smooth swipes \U0001F0CF."
+  - title: "Quiet Challenge Awaits \U0001F9D8"
+    description: "Minimalist design, maximum calm. Return to Zen Solitaire \U0001F54A\uFE0F."
+  - title: "Evening Focus \U0001F319"
+    description: End your day with gentle gameplay and peaceful rhythm.
+  - title: "Match, Breathe, Repeat \U0001F33F"
+    description: Every move is a breath. Every puzzle, a pause.
+  - title: "ASMR Session Ready \U0001F3A7"
+    description: Let the soft shuffle of cards reset your mind.
+  - title: "Tap In to Tune Out \U0001F507"
+    description: Quiet logic meets quiet moments. Press play for peace.
+  - title: "Your Zen Deck Is Waiting \U0001F54A\uFE0F"
+    description: Cards aligned. Vibes calm. You in?
+  - title: "Soothe Your Scroll \U0001F4F1"
+    description: Swap doomscrolling for something serene.
+  - title: "Recenter With Solitaire \U0001F9E9"
+    description: Minimal movement. Maximum clarity.
+  - title: "Peace, One Card at a Time \u2728"
+    description: Slow play for fast calm.
+  - title: "Soft Stack Time \U0001F9FA"
+    description: Stack cards. Clear thoughts. Breathe easy.
+  - title: "Zen Focus Mode \U0001F532"
+    description: No ads, no noise, just flow.
+  - title: "Puzzle Meets Stillness \U0001F515"
+    description: "Solitaire like a whisper\u2014quiet, focused, healing."
+  - title: "Tap for Clarity \U0001F3B4"
+    description: Each swipe is a step toward peace.
+  - title: "Card Flow Activated \U0001F30A"
+    description: Play at your own pace. No pressure. Just presence.
+  - title: "Unplug & Play \U0001F50C"
+    description: Mindful minutes in a minimalist world.
+  - title: "Night Stack \U0001F318"
+    description: Low light. Low stress. High relaxation.
+  - title: "Minimal Moves, Major Calm \U0001F3AF"
+    description: Let the layout guide your focus.
+  - title: "Still Awake? \U0001F319"
+    description: Quietly wind down with a few thoughtful matches.
+  - title: "Solitaire for the Soul \U0001F49C"
+    description: A soft place to land after a long day.
+  - title: "Pause, Then Play \u23F8\uFE0F"
+    description: Breathe deep. Shuffle gently. Begin.
+  - title: "Tap. Flow. Exhale. \U0001FAE7"
+    description: Simple actions with soothing outcomes.
+  - title: "Soft Challenge Ahead \u2601\uFE0F"
+    description: No rush. Just rhythm and reason.
+  - title: "Play in Silence \U0001F507"
+    description: "Silence isn\u2019t empty. It\u2019s full of Solitaire."
+  - title: "Low Light Mode \U0001F526"
+    description: For cozy evenings and calm minds.
+  - title: "Drift Into Focus \U0001F32C"
+    description: Nothing loud. Just logic, breath, and space.
+  - title: "Zen O\u2019Clock \U0001F553"
+    description: "It\u2019s always the right time to slow down."
+  - title: "Stillness Through Strategy \U0001F9E0"
+    description: Every layout a meditative journey.
+  - title: "Minimal Game, Max Peace \U0001F9CA"
+    description: Clean UI. Pure ASMR. Zero clutter.
+  - title: "Stacked in Harmony \U0001FAB7"
+    description: Solitaire in its calmest form.
+  - title: "Clear the Board, Clear the Mind \U0001F9FD"
+    description: Let logic and tranquility meet.
+  - title: "Flow State, Initiated \U0001F300"
+    description: No timers. No distractions. Just cards and clarity.
+  - title: "Your Daily Decompress \U0001F6BF"
+    description: A short game to rinse off the day.
+  - title: "Mindful Minutes Start Now \U0001F9D8"
+    description: Return to your quiet space.
+  - title: "Recharge in Silence \U0001F50B"
+    description: Soft puzzles. Pure reset.
+  - title: "Still Time to Play \U0001F320"
+    description: Late night calm begins with a single swipe.
+  - title: "Let Go With Every Move \U0001F32C\uFE0F"
+    description: Drop stress with each match.
+  - title: "Card Therapy Begins \U0001F6E0\uFE0F"
+    description: Subtle sounds, smooth logic, real peace.
+  - title: "You + Cards = Balance \u2696\uFE0F"
+    description: A little challenge, a lot of calm.
+  - title: "Just You and the Deck \U0001F30C"
+    description: Minimalist focus. Meditative flow.
+--- !u!4 &751460346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751460344}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 654.5717, y: 1848.113, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1093093379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1093093381}
+  - component: {fileID: 1093093380}
+  m_Layer: 0
+  m_Name: Subscription Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1093093380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093093379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6ec835ec2fc456c8cbea24ac79ba43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1093093381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093093379}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 654.5717, y: 1848.113, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108472753
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +617,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1487114997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487114998}
+  - component: {fileID: 1487114999}
+  m_Layer: 0
+  m_Name: ISmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487114998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487114997}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 654.5717, y: 1848.113, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1487114999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487114997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5a610554d164e7a82d9612285cd1a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidKey: 
+  iOSKey: 
+  androidInterstitial: 
+  androidRewarded: 
+  iosInterstitial: 
+  iosRewarded: 
 --- !u!1 &146301955596315215
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,6 +1047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebb61b0b90fa465980e1f9d6fb0f302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -835,3 +1055,6 @@ SceneRoots:
   - {fileID: 1108472756}
   - {fileID: 1346778714}
   - {fileID: 1393358325}
+  - {fileID: 1487114998}
+  - {fileID: 751460346}
+  - {fileID: 1093093381}

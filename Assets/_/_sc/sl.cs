@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class sl : MonoBehaviour
 {
+    public int index = 1;
 
     public void Start()
     {
@@ -11,6 +12,6 @@ public class sl : MonoBehaviour
     }
     void LoadScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(index);
     }
 }
