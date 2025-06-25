@@ -137,6 +137,7 @@ namespace SimpleSolitaire.Controller
             _deck.UpdateCardsPosition(false);
 
             _isDragging = false;
+            
         }
 
         public void OnPointerClick(PointerEventData eventData)

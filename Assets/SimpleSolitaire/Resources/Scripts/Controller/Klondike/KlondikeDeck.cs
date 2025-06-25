@@ -110,6 +110,7 @@ namespace SimpleSolitaire.Controller
                             card.transform.DOLocalRotate(new Vector3(0, -90f, 0), DT).From().onComplete = (() =>
                             {
                                 card.IsDraggable = true;
+                                CardLogicComponent.ActionAfterEachStep();
                             });
                         }
 
