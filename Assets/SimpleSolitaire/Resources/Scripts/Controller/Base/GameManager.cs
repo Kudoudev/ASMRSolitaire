@@ -261,6 +261,8 @@ namespace SimpleSolitaire.Controller
         /// <summary>
         /// Init new game state or show continue game panel.
         /// </summary>
+
+        static public bool loadOldState;
         private void InitGameState()
         {
             InitSettingBtns();
@@ -308,6 +310,8 @@ namespace SimpleSolitaire.Controller
             _scoreCount = isLoadGame ? _undoPerformComponent.StatesData.Score : 0;
             _scoreLabel.text = _scoreCount.ToString();
             StopGameTimer();
+
+            loadOldState = false;
         }
 
         /// <summary>
@@ -444,8 +448,8 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         public void OnClickContinueNoBtn()
         {
+            loadOldState = false;
             DisappearWindow(_continueLayer, OnWindowDisappeared);
-
             void OnWindowDisappeared()
             {
                 //Uncomment if you wanna clear last game when User click No button on Continue Layer.
@@ -462,6 +466,7 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         public void OnClickContinueYesBtn()
         {
+            loadOldState = true;
             DisappearWindow(_continueLayer, OnWindowDisappeared);
 
             void OnWindowDisappeared()

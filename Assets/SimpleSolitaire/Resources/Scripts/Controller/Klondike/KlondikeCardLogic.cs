@@ -197,7 +197,6 @@ namespace SimpleSolitaire.Controller
                             targetDeck.PushCardArray(popCards);
                             targetDeck.UpdateCardsPosition(false);
                             srcDeck.UpdateCardsPosition(false);
-
                             ActionAfterEachStep();
 
                             if (targetDeck.Type == DeckType.DECK_TYPE_ACE)

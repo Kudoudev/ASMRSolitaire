@@ -11,7 +11,7 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         /// <param name="firstTime">If it first game update</param>
         /// 
-        float DT = 0.35f;
+        float DT = 0.2f;
         public override void UpdateCardsPosition(bool firstTime)
         {
             for (int i = 0; i < CardsArray.Count; i++)
@@ -72,12 +72,12 @@ namespace SimpleSolitaire.Controller
                                                                   card.dicked = false;
                                                               });
 
-                                if (!card.scaled)
+                                if (!card.scaled && !GameManager.loadOldState)
                                 {
                                     card.CardRect.pivot = new Vector2(1, 0.5f);
                                     card.transform.DOScaleX(0f, DT).From().SetDelay(0.05f);
-                                    card.scaled = true;
                                 }
+                                card.scaled = true;
 
                             }
                             else
@@ -101,16 +101,30 @@ namespace SimpleSolitaire.Controller
                         else
                         {
                             card.CardStatus = 1;
-                            KlondikeHintManager.I.Schedule(0.05f, () =>
-                            {
-                                card.UpdateCardImg();
-                            });
-
-                            card.transform.DOLocalRotate(new Vector3(0, -90f, 0), DT).From().onComplete = (() =>
+                            if (GameManager.loadOldState)
                             {
                                 card.IsDraggable = true;
+                                card.UpdateCardImg();
                                 CardLogicComponent.ActionAfterEachStep();
-                            });
+                            }
+                            else
+                            {
+                                KlondikeHintManager.I.Schedule(0.05f, () =>
+                                                         {
+                                                             card.UpdateCardImg();
+                                                         });
+
+                                card.transform.DOLocalRotate(new Vector3(0, -90f, 0), DT).From().onComplete = (() =>
+                                {
+                                    card.IsDraggable = true;
+                                    CardLogicComponent.ActionAfterEachStep();
+                                });
+                            }
+
+
+
+
+
                         }
                     }
                     else
@@ -120,8 +134,10 @@ namespace SimpleSolitaire.Controller
                             card.IsDraggable = false;
                             card.CardStatus = 0;
                             card.UpdateCardImg();
-
-                            Debug.LogError(card.CardStatus);
+                        }
+                        else if(GameManager.loadOldState)
+                        {
+                            card.UpdateCardImg();
                         }
 
                     }

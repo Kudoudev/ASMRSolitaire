@@ -247,8 +247,23 @@ namespace SimpleSolitaire.Controller
             {
                 var card = WasteDeck.Pop();
                 card.scaled = false;
+                card.dicked = false;
                 PackDeck.PushCard(card);
             }
+
+            PackDeck.CardsArray.ForEach(c => //reorder one more time for good
+            {
+                c.scaled = false;
+                c.dicked = false;
+             });
+
+            WasteDeck.CardsArray.ForEach(c => //reorder one more time for good
+            {
+                c.scaled = false;
+                c.dicked = false;
+             });
+
+
 
             PackDeck.UpdateCardsPosition(false);
             WasteDeck.UpdateCardsPosition(false);
