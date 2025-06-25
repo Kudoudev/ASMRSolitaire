@@ -674,10 +674,11 @@ public class SubscriptionManager : MonoBehaviour, IStoreListener
 
         if (!IU.ValidateReceipt(args.purchasedProduct))
         {
+            #if !UNITY_EDITOR
             Debug.LogError("Receipt validation failed!");
             return PurchaseProcessingResult.Complete;
+            #endif
         }
-
         try
         {
             var receiptInfo = ExtractReceiptInfo(args.purchasedProduct);

@@ -54,7 +54,7 @@ namespace SimpleSolitaire.Controller
                 {
                     if (string.IsNullOrEmpty(contentData.Name) || contentData.Name != contentData.Preview.name)
                     {
-                        contentData.Name = contentData.Preview.name;
+                        // contentData.Name = contentData.Preview.name;
                     }
                 }
                 else

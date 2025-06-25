@@ -180,9 +180,10 @@ namespace SimpleSolitaire.Controller
         protected string GetTexture()
         {
             var visualData = CardLogicComponent.CardShirtComponent.CurrentInfo;
-
+            var backPath = $"{Public.PATH_TO_CARD_BACKS_IN_RESOURCES}{visualData.CardBack}";
+            Debug.LogError(backPath);
             return CardStatus == 0
-                ? $"{Public.PATH_TO_CARD_BACKS_IN_RESOURCES}{visualData.CardBack}"
+                ? backPath
                 : $"{Public.PATH_TO_CARD_FRONTS_IN_RESOURCES}{visualData.CardFront}/{GetTypeName()}{Number}";
         }
 

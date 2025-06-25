@@ -12,7 +12,7 @@ public enum PackType
 }
 
 
-public class NoAdsPopUp 
+public class NoAdsPopUp  : MonoBehaviour
 {
     [Header("Subscription Packs")]
     public NoAdsPack weekly, monthly, annual;
@@ -24,13 +24,13 @@ public class NoAdsPopUp
     public GameObject unsubscribed, subscribed;
     public List<GameObject> subscribedObjects;
     public Text expiredDate;
-    public Text hintReward, shuffleReward;
+    // public Text hintReward, shuffleReward;
 
-    [Header("Status Messages")]
-    public GameObject expiredPanel; // Panel to show when subscription expired
-    public Text statusMessage;      // General status message
-    public Text subscriptionTypeText; // Show current subscription type
-    public Text duration;
+    // [Header("Status Messages")]
+    // public GameObject expiredPanel; // Panel to show when subscription expired
+    // public Text statusMessage;      // General status message
+    // public Text subscriptionTypeText; // Show current subscription type
+    // public Text duration;
 
     static public NoAdsPopUp I;
 
@@ -62,6 +62,7 @@ public class NoAdsPopUp
         {
             restoreButton.onClick.AddListener(RestorePurchases);
         }
+
         ManageSubscriptionButton.onClick.AddListener(SubscriptionManager.I.OpenManageSubscription);
 
     }
@@ -91,23 +92,23 @@ public class NoAdsPopUp
         }
     }
 
-    void OnEnable()
-    {
-        if (isInitialized)
-        {
-            // Force check subscription status when popup opens
-            if (SubscriptionManager.I != null)
-            {
-                SubscriptionManager.I.CheckSubscriptionStatus();
-            }
-            UpdateUI();
-        }
-    }
+    // void OnEnable()
+    // {
+    //     if (isInitialized)
+    //     {
+    //         // Force check subscription status when popup opens
+    //         if (SubscriptionManager.I != null)
+    //         {
+    //             SubscriptionManager.I.CheckSubscriptionStatus();
+    //             UpdateUI();
+    //         }
+    //     }
+    // }
 
     void SetReward(int value)
     {
-        hintReward.text = $"{value} Hints";
-        shuffleReward.text = $"{value} Shuffles";
+        // hintReward.text = $"{value} Hints";
+        // shuffleReward.text = $"{value} Shuffles";
     }
 
     void SelectWeekly()
@@ -117,7 +118,7 @@ public class NoAdsPopUp
         weekly.Select();
         type = PackType.Weekly;
         SetReward(SubscriptionManager.WEEKLY_REWARD);
-        duration.text = "2.99$ per week";
+        // duration.text = "2.99$ per week";
     }
 
     void SelectMonthly()
@@ -127,7 +128,7 @@ public class NoAdsPopUp
         monthly.Select();
         type = PackType.Monthly;
         SetReward(SubscriptionManager.MONTHLY_REWARD);
-        duration.text = "6.99$ per month";
+        // duration.text = "6.99$ per month";
 
     }
 
@@ -138,7 +139,7 @@ public class NoAdsPopUp
         annual.Select();
         type = PackType.Annual;
         SetReward(SubscriptionManager.ANNUAL_REWARD);
-        duration.text = "29.99$ per year";
+        // duration.text = "29.99$ per year";
 
     }
 
@@ -241,19 +242,19 @@ public class NoAdsPopUp
         subscribed.SetActive(true);
         subscribedObjects.ForEach(s => s.gameObject.SetActive(true));
 
-        if (expiredPanel != null)
-            expiredPanel.SetActive(false);
+        // if (expiredPanel != null)
+        //     expiredPanel.SetActive(false);
 
         if (expiryDate.HasValue)
         {
             string renewalText = $"Your subscription will renew on {expiryDate.Value:MMM dd, yyyy}";
             expiredDate.text = renewalText;
 
-            if (subscriptionTypeText != null)
-            {
-                string activeType = SubscriptionManager.I.GetActiveSubscriptionType();
-                subscriptionTypeText.text = GetSubscriptionDisplayName(activeType);
-            }
+            // if (subscriptionTypeText != null)
+            // {
+            //     string activeType = SubscriptionManager.I.GetActiveSubscriptionType();
+            //     subscriptionTypeText.text = GetSubscriptionDisplayName(activeType);
+            // }
         }
         else
         {
@@ -279,8 +280,8 @@ public class NoAdsPopUp
         subscribed.SetActive(false);
         subscribedObjects.ForEach(s => s.gameObject.SetActive(false));
 
-        if (expiredPanel != null)
-            expiredPanel.SetActive(true);
+        // if (expiredPanel != null)
+        //     expiredPanel.SetActive(true);
 
         expiredDate.text = "Your subscription has expired. Subscribe again to continue enjoying premium features!";
         ShowStatusMessage("Subscription Expired - Rebuy Available", Color.red);
@@ -303,8 +304,8 @@ public class NoAdsPopUp
         subscribed.SetActive(true);
         subscribedObjects.ForEach(s => s.gameObject.SetActive(true));
 
-        if (expiredPanel != null)
-            expiredPanel.SetActive(false);
+        // if (expiredPanel != null)
+            // expiredPanel.SetActive(false);
 
         if (expiryDate.HasValue)
         {
@@ -335,8 +336,8 @@ public class NoAdsPopUp
         subscribed.SetActive(false);
         subscribedObjects.ForEach(s => s.gameObject.SetActive(false));
 
-        if (expiredPanel != null)
-            expiredPanel.SetActive(false);
+        // if (expiredPanel != null)
+        //     expiredPanel.SetActive(false);
 
         expiredDate.text = customMessage ?? "No active subscription";
         ShowStatusMessage(customMessage ?? "Ready to Subscribe", Color.white);
@@ -353,14 +354,14 @@ public class NoAdsPopUp
 
     void ShowStatusMessage(string message, Color? color = null)
     {
-        if (statusMessage != null)
-        {
-            statusMessage.text = message;
-            if (color.HasValue)
-            {
-                statusMessage.color = color.Value;
-            }
-        }
+        // if (statusMessage != null)
+        // {
+        //     statusMessage.text = message;
+        //     if (color.HasValue)
+        //     {
+        //         statusMessage.color = color.Value;
+        //     }
+        // }
 
         Debug.Log($"[NoAdsPopUp] Status: {message}");
     }

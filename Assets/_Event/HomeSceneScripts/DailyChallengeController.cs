@@ -102,10 +102,17 @@ public class DailyChallengeController : MonoBehaviour
 
     public void OnPlayClick()
     {
+        isDaily = true;
         SceneManager.LoadScene(1);
         Debug.Log("============TODO implement code play daily challenge");
-
         //Debug
+
+    }
+
+    static public bool isDaily;
+
+    public void OnWinDaily()
+    {
         StartCoroutine(OnShowWin());
     }
 

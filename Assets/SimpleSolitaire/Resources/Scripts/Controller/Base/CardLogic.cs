@@ -258,7 +258,7 @@ namespace SimpleSolitaire.Controller
              });
 
             WasteDeck.CardsArray.ForEach(c => //reorder one more time for good
-            {
+            {   
                 c.scaled = false;
                 c.dicked = false;
              });
