@@ -170,6 +170,7 @@ namespace SimpleSolitaire.Controller
         {
             bool isPackWasteNotFound = false;
             bool isHasTarget = false;
+            HTB.DoHaptic(HTB.LIGHT, ImpulseVibrations.ImpactTypeFeedback.IMPACT_LIGHT);
             for (int i = 0; i < AllDeckArray.Length; i++)
             {
                 Deck targetDeck = AllDeckArray[i];
@@ -249,11 +250,13 @@ namespace SimpleSolitaire.Controller
                 {
                     AudioCtrl.Play(AudioController.AudioType.Error);
                 }
-
+                HTB.DoHaptic(HTB.MED, ImpulseVibrations.ImpactTypeFeedback.IMPACT_MEDIUM);
                 return;
             }
+            
 
             WriteUndoState();
+            HTB.DoHaptic(HTB.LIGHT, ImpulseVibrations.ImpactTypeFeedback.IMPACT_LIGHT);
 
             switch (CurrentRule)
             {

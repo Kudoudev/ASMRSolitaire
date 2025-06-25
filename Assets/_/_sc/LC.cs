@@ -11,7 +11,6 @@ public class LC : MonoBehaviour
         {
             Application.OpenURL(link);
         });
-        
     }
 
 }

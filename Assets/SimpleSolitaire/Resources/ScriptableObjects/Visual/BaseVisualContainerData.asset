@@ -49,43 +49,43 @@ MonoBehaviour:
     Prefab: {fileID: 3067643622769435766, guid: 260e41c96b54a624b93a93a93e01bdab,
       type: 3}
     Content:
-    - Name: back 01_0
+    - Name: back 01
       Preview: {fileID: -8940707081081552937, guid: 1c0ed8419ad504c50b39447ed6a801fa,
         type: 3}
       IsDefault: 1
-    - Name: back 02_0
+    - Name: back 02
       Preview: {fileID: -6707340812870305525, guid: dd195a00e0c374093b3ccca6628d273a,
         type: 3}
       IsDefault: 0
-    - Name: back 03_0
+    - Name: back 03
       Preview: {fileID: 3233870424586679459, guid: ea2ce620965464bb2afc8e9ab564143f,
         type: 3}
       IsDefault: 0
-    - Name: back 04_0
+    - Name: back 04
       Preview: {fileID: 157553803203970086, guid: 3c180c0e9799c46c9a100ecd0f4b6a49,
         type: 3}
       IsDefault: 0
-    - Name: back 05_0
+    - Name: back 05
       Preview: {fileID: -2164881781355546231, guid: 670f1554ab5ea48f0a579c3b3997a4a1,
         type: 3}
       IsDefault: 0
-    - Name: back 06_0
+    - Name: back 06
       Preview: {fileID: 7912829399077889224, guid: 1ada8a90b61984383b45a5cae0e9ccd6,
         type: 3}
       IsDefault: 0
-    - Name: back 07_0
+    - Name: back 07
       Preview: {fileID: -581340556932973752, guid: 98ae1312065304173a6478388a2e2e09,
         type: 3}
       IsDefault: 0
-    - Name: back 08_0
+    - Name: back 08
       Preview: {fileID: -3207587652914795339, guid: 35ad8a1b19ea5455b81a7e0c2e188a56,
         type: 3}
       IsDefault: 0
-    - Name: back 09_0
+    - Name: back 09
       Preview: {fileID: -1511507210591855262, guid: 72180b82eb926447a838e3b8da56c0a5,
         type: 3}
       IsDefault: 0
-    - Name: back 10_0
+    - Name: back 10
       Preview: {fileID: -5606693451805056863, guid: 963b9fed0638149fd8fecd8b1d164a14,
         type: 3}
       IsDefault: 0

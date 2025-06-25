@@ -448,7 +448,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1168
+      value: 976
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -589,7 +589,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 568
+      value: 376
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1374,7 +1374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 768, y: -50}
+  m_AnchoredPosition: {x: 576, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90338224
@@ -2148,7 +2148,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 368
+      value: 176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -2699,7 +2699,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -2815,7 +2815,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1368
+      value: 1176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -3780,7 +3780,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 168
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -3939,7 +3939,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 768
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -4303,7 +4303,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1168
+      value: 976
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -5115,7 +5115,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -5466,7 +5466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 568, y: -50}
+  m_AnchoredPosition: {x: 376, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349212213
@@ -6014,7 +6014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 168, y: -50}
+  m_AnchoredPosition: {x: -24, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380121709
@@ -6319,7 +6319,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -6402,8 +6402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1125, y: -70.575}
-  m_SizeDelta: {x: 750, y: 141.15}
+  m_AnchoredPosition: {x: 864, y: -70.575}
+  m_SizeDelta: {x: 576, y: 141.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418987913
 MonoBehaviour:
@@ -6551,7 +6551,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 768
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -7014,7 +7014,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 968
+      value: 776
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -7155,7 +7155,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 568
+      value: 376
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -7844,7 +7844,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1368
+      value: 1176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -8324,7 +8324,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 968
+      value: 776
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -8465,7 +8465,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 768
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -8606,7 +8606,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 968
+      value: 776
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -9097,7 +9097,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 768
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -9389,7 +9389,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1168
+      value: 976
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -9629,7 +9629,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -9873,7 +9873,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1168
+      value: 976
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -10425,7 +10425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1168, y: -50}
+  m_AnchoredPosition: {x: 976, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &713643620
@@ -10761,7 +10761,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -10897,7 +10897,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -11149,7 +11149,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1368
+      value: 1176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -11328,7 +11328,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -11540,7 +11540,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -12082,7 +12082,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -12274,7 +12274,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 968
+      value: 776
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -13153,7 +13153,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 168
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -13584,7 +13584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1368, y: -50}
+  m_AnchoredPosition: {x: 1176, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &873768689
@@ -13917,7 +13917,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 768
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -14719,7 +14719,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -14857,7 +14857,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -15147,7 +15147,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 943082356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43ce6ba24760f495eab06ae10a48de26, type: 3}
+  m_Script: {fileID: 11500000, guid: 7dd2033793070ef47a9acacf882fa5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &961473041
@@ -15483,7 +15483,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 568
+      value: 376
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -15624,7 +15624,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1368
+      value: 1176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -16789,7 +16789,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 768
+      value: 576
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -16930,7 +16930,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1368
+      value: 1176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -17071,7 +17071,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 368
+      value: 176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -17494,7 +17494,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 568
+      value: 376
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -17635,7 +17635,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 568
+      value: 376
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -18269,7 +18269,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1368
+      value: 1176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -18430,7 +18430,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -19314,7 +19314,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1168
+      value: 976
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -20043,7 +20043,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 368
+      value: 176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -20337,7 +20337,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 368
+      value: 176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -20621,7 +20621,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 368
+      value: 176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -21053,7 +21053,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -21439,7 +21439,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 168
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -21580,7 +21580,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 968
+      value: 776
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -21864,7 +21864,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 168
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -23156,7 +23156,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -23220,7 +23220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 968, y: -50}
+  m_AnchoredPosition: {x: 776, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491555581
@@ -23596,6 +23596,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493460250}
   m_CullTransparentMesh: 1
+--- !u!1 &1500481451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500481452}
+  - component: {fileID: 1500481454}
+  m_Layer: 0
+  m_Name: ISManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1500481452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500481451}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 856.069, y: -71.77965, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1500481454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500481451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5a610554d164e7a82d9612285cd1a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidKey: 
+  iOSKey: 
+  androidInterstitial: 
+  androidRewarded: 
+  iosInterstitial: 
+  iosRewarded: 
 --- !u!1001 &1508480722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25535,7 +25585,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 168
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -27731,7 +27781,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1168
+      value: 976
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -28354,6 +28404,131 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dbaeee20a8f65749bc5a1204a93929c, type: 3}
+--- !u!1 &1935054016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935054018}
+  - component: {fileID: 1935054019}
+  m_Layer: 0
+  m_Name: Notify
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1935054018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935054016}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 856.069, y: -71.77965, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1935054019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935054016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d39d9eff86cf413984ef1aafe33d447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dailyMessages:
+  - title: "Time to Unwind \U0001F4A4"
+    description: "Clear your mind with soft card sounds and smooth swipes \U0001F0CF."
+  - title: "Quiet Challenge Awaits \U0001F9D8"
+    description: "Minimalist design, maximum calm. Return to Zen Solitaire \U0001F54A\uFE0F."
+  - title: "Evening Focus \U0001F319"
+    description: End your day with gentle gameplay and peaceful rhythm.
+  - title: "Match, Breathe, Repeat \U0001F33F"
+    description: Every move is a breath. Every puzzle, a pause.
+  - title: "ASMR Session Ready \U0001F3A7"
+    description: Let the soft shuffle of cards reset your mind.
+  - title: "Tap In to Tune Out \U0001F507"
+    description: Quiet logic meets quiet moments. Press play for peace.
+  - title: "Your Zen Deck Is Waiting \U0001F54A\uFE0F"
+    description: Cards aligned. Vibes calm. You in?
+  - title: "Soothe Your Scroll \U0001F4F1"
+    description: Swap doomscrolling for something serene.
+  - title: "Recenter With Solitaire \U0001F9E9"
+    description: Minimal movement. Maximum clarity.
+  - title: "Peace, One Card at a Time \u2728"
+    description: Slow play for fast calm.
+  - title: "Soft Stack Time \U0001F9FA"
+    description: Stack cards. Clear thoughts. Breathe easy.
+  - title: "Zen Focus Mode \U0001F532"
+    description: No ads, no noise, just flow.
+  - title: "Puzzle Meets Stillness \U0001F515"
+    description: "Solitaire like a whisper\u2014quiet, focused, healing."
+  - title: "Tap for Clarity \U0001F3B4"
+    description: Each swipe is a step toward peace.
+  - title: "Card Flow Activated \U0001F30A"
+    description: Play at your own pace. No pressure. Just presence.
+  - title: "Unplug & Play \U0001F50C"
+    description: Mindful minutes in a minimalist world.
+  - title: "Night Stack \U0001F318"
+    description: Low light. Low stress. High relaxation.
+  - title: "Minimal Moves, Major Calm \U0001F3AF"
+    description: Let the layout guide your focus.
+  - title: "Still Awake? \U0001F319"
+    description: Quietly wind down with a few thoughtful matches.
+  - title: "Solitaire for the Soul \U0001F49C"
+    description: A soft place to land after a long day.
+  - title: "Pause, Then Play \u23F8\uFE0F"
+    description: Breathe deep. Shuffle gently. Begin.
+  - title: "Tap. Flow. Exhale. \U0001FAE7"
+    description: Simple actions with soothing outcomes.
+  - title: "Soft Challenge Ahead \u2601\uFE0F"
+    description: No rush. Just rhythm and reason.
+  - title: "Play in Silence \U0001F507"
+    description: "Silence isn\u2019t empty. It\u2019s full of Solitaire."
+  - title: "Low Light Mode \U0001F526"
+    description: For cozy evenings and calm minds.
+  - title: "Drift Into Focus \U0001F32C"
+    description: Nothing loud. Just logic, breath, and space.
+  - title: "Zen O\u2019Clock \U0001F553"
+    description: "It\u2019s always the right time to slow down."
+  - title: "Stillness Through Strategy \U0001F9E0"
+    description: Every layout a meditative journey.
+  - title: "Minimal Game, Max Peace \U0001F9CA"
+    description: Clean UI. Pure ASMR. Zero clutter.
+  - title: "Stacked in Harmony \U0001FAB7"
+    description: Solitaire in its calmest form.
+  - title: "Clear the Board, Clear the Mind \U0001F9FD"
+    description: Let logic and tranquility meet.
+  - title: "Flow State, Initiated \U0001F300"
+    description: No timers. No distractions. Just cards and clarity.
+  - title: "Your Daily Decompress \U0001F6BF"
+    description: A short game to rinse off the day.
+  - title: "Mindful Minutes Start Now \U0001F9D8"
+    description: Return to your quiet space.
+  - title: "Recharge in Silence \U0001F50B"
+    description: Soft puzzles. Pure reset.
+  - title: "Still Time to Play \U0001F320"
+    description: Late night calm begins with a single swipe.
+  - title: "Let Go With Every Move \U0001F32C\uFE0F"
+    description: Drop stress with each match.
+  - title: "Card Therapy Begins \U0001F6E0\uFE0F"
+    description: Subtle sounds, smooth logic, real peace.
+  - title: "You + Cards = Balance \u2696\uFE0F"
+    description: A little challenge, a lot of calm.
+  - title: "Just You and the Deck \U0001F30C"
+    description: Minimalist focus. Meditative flow.
 --- !u!1 &1935251310
 GameObject:
   m_ObjectHideFlags: 0
@@ -28683,7 +28858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368, y: -50}
+  m_AnchoredPosition: {x: 176, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955258511
@@ -28892,7 +29067,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -29008,7 +29183,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 968
+      value: 776
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -29113,7 +29288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.745283, g: 0.73473656, b: 0.73473656, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -29304,7 +29479,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 368
+      value: 176
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -29915,7 +30090,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 568
+      value: 376
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -30046,7 +30221,7 @@ GameObject:
   - component: {fileID: 2047398622}
   - component: {fileID: 2047398623}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30271,7 +30446,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -31053,8 +31228,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 375, y: -70.575}
-  m_SizeDelta: {x: 750, y: 141.15}
+  m_AnchoredPosition: {x: 288, y: -70.575}
+  m_SizeDelta: {x: 576, y: 141.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112401892
 MonoBehaviour:
@@ -32082,7 +32257,7 @@ PrefabInstance:
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 168
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 46096007213004782, guid: e09538d20ccabbe4b88c61d4914fbe33,
         type: 3}
@@ -34437,3 +34612,5 @@ SceneRoots:
   - {fileID: 307188808}
   - {fileID: 2047398620}
   - {fileID: 179912294}
+  - {fileID: 1500481452}
+  - {fileID: 1935054018}

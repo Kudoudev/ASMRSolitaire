@@ -259,7 +259,7 @@ MonoBehaviour:
   m_CellSize: {x: 400, y: 690}
   m_Spacing: {x: 100, y: 20}
   m_Constraint: 1
-  m_ConstraintCount: 3
+  m_ConstraintCount: 2
 --- !u!114 &6530195996708228016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b018c84d2fd281498e9730f2f60358c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monthItem: {fileID: 3110953925996782504, guid: c1678e3ef3884a9418f0b16a830420ae, type: 3}
-  eventItem: {fileID: 7909000455755916469, guid: ee5a8afb0defecc499154be911288c06, type: 3}
+  monthItem: {fileID: 3110953925996782504, guid: c1678e3ef3884a9418f0b16a830420ae,
+    type: 3}
+  eventItem: {fileID: 7909000455755916469, guid: ee5a8afb0defecc499154be911288c06,
+    type: 3}
   txtYear: {fileID: 6716446470903581002}
