@@ -38,7 +38,8 @@ public class MainSceneController : MonoBehaviour
     {
         if (txtDailyChallengeButton.text == "Play")
         {
-            Debug.LogError("==========TODO Implement play daily challenge");
+            SceneManager.LoadScene(1);
+            // Debug.LogError("==========TODO Implement play daily challenge");
         }
         else
         {
@@ -74,6 +75,7 @@ public class MainSceneController : MonoBehaviour
 
     public void OnPlayClick()
     {
+        SceneManager.LoadScene(1);
         Debug.LogError("==========TODO Implement play");
     }
 }

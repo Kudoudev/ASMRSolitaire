@@ -102,6 +102,7 @@ public class DailyChallengeController : MonoBehaviour
 
     public void OnPlayClick()
     {
+        SceneManager.LoadScene(1);
         Debug.Log("============TODO implement code play daily challenge");
 
         //Debug

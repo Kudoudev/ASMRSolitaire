@@ -9,6 +9,7 @@ using UnityEditor;
 #endif
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -495,6 +496,12 @@ namespace SimpleSolitaire.Controller
                 _exitLayer.SetActive(false);
                 _cardLayer.SetActive(true);
             }
+        }
+
+        public void BackHome()
+        {
+            _cardLogic.SaveGameState(isTempState: true);
+            SceneManager.LoadScene(0);
         }
 
         /// <summary>

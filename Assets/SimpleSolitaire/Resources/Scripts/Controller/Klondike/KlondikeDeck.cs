@@ -34,7 +34,6 @@ namespace SimpleSolitaire.Controller
                         card.gameObject.transform.position = gameObject.transform.position;
                     }
                     card.RestoreBackView();
-
                 }
                 else
                 {
@@ -90,7 +89,6 @@ namespace SimpleSolitaire.Controller
                             card.IsDraggable = true;
                         }
                     }
-
                     //last card in deck
                     if (i == CardsArray.Count - 1)
                     {
@@ -107,14 +105,13 @@ namespace SimpleSolitaire.Controller
                             {
                                 card.UpdateCardImg();
                             });
+
                             card.transform.DOLocalRotate(new Vector3(0, -90f, 0), DT).From().onComplete = (() =>
                             {
                                 card.IsDraggable = true;
                                 CardLogicComponent.ActionAfterEachStep();
                             });
                         }
-
-
                     }
                     else
                     {
@@ -124,6 +121,7 @@ namespace SimpleSolitaire.Controller
                             card.CardStatus = 0;
                             card.UpdateCardImg();
 
+                            Debug.LogError(card.CardStatus);
                         }
 
                     }

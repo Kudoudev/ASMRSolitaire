@@ -13083,7 +13083,6 @@ GameObject:
   - component: {fileID: 1804661236}
   - component: {fileID: 1804661235}
   - component: {fileID: 1804661234}
-  - component: {fileID: 1804661237}
   m_Layer: 5
   m_Name: Home btn
   m_TagString: Untagged
@@ -13166,6 +13165,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 411655882}
+        m_TargetAssemblyTypeName: SimpleSolitaire.Controller.GameManager, Assembly-CSharp
+        m_MethodName: BackHome
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1804661235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13204,19 +13215,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804661232}
   m_CullTransparentMesh: 0
---- !u!114 &1804661237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804661232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ebb61b0b90fa465980e1f9d6fb0f302, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 0
 --- !u!1 &1814448006 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8902459749606867232, guid: 3bd9731cb3ebd104d8bbc7241d86c38f,
