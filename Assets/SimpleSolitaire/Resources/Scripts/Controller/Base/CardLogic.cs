@@ -1,4 +1,5 @@
-﻿using SimpleSolitaire.Model.Config;
+﻿using DG.Tweening;
+using SimpleSolitaire.Model.Config;
 using SimpleSolitaire.Model.Enum;
 using System.Collections.Generic;
 using System.Linq;
@@ -183,6 +184,7 @@ namespace SimpleSolitaire.Controller
                 CardsArray[i].InitWithNumber(i);
                 CardsArray[i].CardLogicComponent = this;
             }
+
         }
 
         /// <summary>
@@ -262,8 +264,6 @@ namespace SimpleSolitaire.Controller
                 c.scaled = false;
                 c.dicked = false;
              });
-
-
 
             PackDeck.UpdateCardsPosition(false);
             WasteDeck.UpdateCardsPosition(false);
@@ -354,6 +354,7 @@ namespace SimpleSolitaire.Controller
             SetPackDeckBg();
             HintManagerComponent.UpdateAvailableForDragCards();
             IsGameStarted = true;
+
         }
 
         /// <summary>

@@ -266,14 +266,6 @@ namespace SimpleSolitaire.Controller
         private void InitGameState()
         {
             InitSettingBtns();
-
-            if (UseLoadLastGameOption && _howToPlayComponent.IsHasKey() && _undoPerformComponent.IsHasGame())
-            {
-                _cardLayer.SetActive(false);
-                _continueLayer.SetActive(true);
-                AppearWindow(_continueLayer);
-            }
-            else
             {
                 _cardLogic.InitCardLogic();
                 _cardLogic.Shuffle(false);
@@ -310,7 +302,6 @@ namespace SimpleSolitaire.Controller
             _scoreCount = isLoadGame ? _undoPerformComponent.StatesData.Score : 0;
             _scoreLabel.text = _scoreCount.ToString();
             StopGameTimer();
-
             loadOldState = false;
         }
 
@@ -341,6 +332,8 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         public void HasWinGame()
         {
+            DailyChallengeController.winEvent = true;
+
             _cardLayer.SetActive(false);
             _winLayer.SetActive(true);
 
@@ -405,6 +398,7 @@ namespace SimpleSolitaire.Controller
             _cardLogic.Shuffle(false);
             _undoPerformComponent.ResetUndoStates();
             _statisticsComponent.IncreasePlayedGamesAmount();
+            SceneManager.LoadScene(0);
         }
 
         /// <summary>
@@ -505,7 +499,7 @@ namespace SimpleSolitaire.Controller
 
         public void BackHome()
         {
-            _cardLogic.SaveGameState(isTempState: true);
+            // _cardLogic.SaveGameState(isTempState: true);
             SceneManager.LoadScene(0);
         }
 
@@ -624,6 +618,19 @@ namespace SimpleSolitaire.Controller
                 _cardLayer.SetActive(false);
                 AppearWindow(_adsLayer);
             }
+        }
+
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                HasWinGame();
+            }
+        }
+
+        public void Continue()
+        {
+            BackHome();
         }
 
         public void UpdateAdsInfoText(RewardAdsType type)

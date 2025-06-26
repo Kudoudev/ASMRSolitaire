@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using System.Linq;
+using DG.Tweening;
 using SimpleSolitaire.Model.Enum;
 using UnityEngine;
 
@@ -60,9 +61,8 @@ namespace SimpleSolitaire.Controller
 
                         if (count >= 0 && i >= count - 3)
                         {
-                            float visibleIndex = (i - (count + 3)); // 0, 1, 2
-                                                                    //65f -> 65% equal to 0.65 in waste space
-                                                                    // card.gameObject.transform.position = gameObject.transform.position +(Vector3.right*Screen.width * 65f/100f) + new Vector3(visibleIndex * wasteHorizontalSpace, 0, 0);
+                            float visibleIndex = (i - (count + 3)); 
+
                             if (!card.dicked)
                             {
                                 card.gameObject.transform.DOMove(gameObject.transform.position +
@@ -110,9 +110,9 @@ namespace SimpleSolitaire.Controller
                             else
                             {
                                 KlondikeHintManager.I.Schedule(0.05f, () =>
-                                                         {
-                                                             card.UpdateCardImg();
-                                                         });
+                                {
+                                    card.UpdateCardImg();
+                                });
 
                                 card.transform.DOLocalRotate(new Vector3(0, -90f, 0), DT).From().onComplete = (() =>
                                 {
@@ -120,10 +120,6 @@ namespace SimpleSolitaire.Controller
                                     CardLogicComponent.ActionAfterEachStep();
                                 });
                             }
-
-
-
-
 
                         }
                     }
@@ -135,7 +131,7 @@ namespace SimpleSolitaire.Controller
                             card.CardStatus = 0;
                             card.UpdateCardImg();
                         }
-                        else if(GameManager.loadOldState)
+                        else if (GameManager.loadOldState)
                         {
                             card.UpdateCardImg();
                         }
@@ -143,7 +139,6 @@ namespace SimpleSolitaire.Controller
                     }
                 }
             }
-
             if (Type == DeckType.DECK_TYPE_BOTTOM)
             {
                 for (int i = 0; i < CardsArray.Count; i++)
@@ -172,9 +167,10 @@ namespace SimpleSolitaire.Controller
 
             }
             UpdateCardsActiveStatus();
+
         }
 
-
+        static bool first = true;
         /// <summary>
         /// If we can drop card to other card it will be true.
         /// </summary>

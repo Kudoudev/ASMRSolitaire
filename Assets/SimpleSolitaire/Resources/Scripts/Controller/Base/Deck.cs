@@ -6,6 +6,7 @@ using SimpleSolitaire.Model.Config;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using DG.Tweening;
 
 namespace SimpleSolitaire.Controller
 {
@@ -251,6 +252,7 @@ namespace SimpleSolitaire.Controller
                     (CardsArray[i]).gameObject.SetActive(true);
                 }
             }
+         
         }
 
         /// <summary>

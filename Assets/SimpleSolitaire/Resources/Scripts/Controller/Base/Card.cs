@@ -9,6 +9,7 @@ namespace SimpleSolitaire.Controller
 {
     public abstract class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
     {
+        public Transform animator;
         public int CardType = 0;
         public int CardNumber = 0;
         public int Number = 0;

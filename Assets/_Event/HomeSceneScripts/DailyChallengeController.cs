@@ -15,16 +15,32 @@ public class DailyChallengeController : MonoBehaviour
     public Image imgCup;
 
     public static DateTime SelectingDay;
-
+    public static bool winEvent;
     private void OnEnable()
     {
-        //todo select last day can play
+        //todo select last day can play, decrease if day is finished
         if (SelectingDay == default(DateTime))
+        {
             SelectingDay = DateTime.Today;
-            
-        FindNotFinishDay();
+            if (PlayerPrefs.GetInt(SelectingDay.ToShortDateString(), 0) == 1)
+            {
+                //find last day that is not finished
+                for (int i = 0; i < 365; i++)
+                {
+                    SelectingDay = DateTime.Today.AddDays(-i);
+                    Debug.LogError(SelectingDay);
+                    if (PlayerPrefs.GetInt(SelectingDay.ToShortDateString(), 0) == 0)
+                        break;
+                }
+            }
+        }
 
+        FindNotFinishDay();
         ResetCalendar();
+        if (winEvent)
+        {
+            OnWinDaily();
+        }
     }
 
     public void OnChangeMonthClick(int change)
@@ -108,13 +124,13 @@ public class DailyChallengeController : MonoBehaviour
         SceneManager.LoadScene(1);
         Debug.Log("============TODO implement code play daily challenge");
         //Debug
-
     }
 
     static public bool isDaily;
 
     public void OnWinDaily()
     {
+        winEvent = false; 
         StartCoroutine(OnShowWin());
     }
 
@@ -129,6 +145,8 @@ public class DailyChallengeController : MonoBehaviour
             HomeSceneController.Instance.GetComponent<CanvasGroup>().blocksRaycasts = true;
             yield break;
         }
+
+        yield return new WaitForSeconds(0.5f);
 
         yield return new WaitUntil(() => SceneManager.sceneCount == 1);
         PlayerPrefs.SetInt(SelectingDay.ToShortDateString(), 1);

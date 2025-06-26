@@ -9,6 +9,14 @@ public class HomeSceneController : SingletonMonoBehaviour<HomeSceneController>
     public DailyChallengeController dailyChallengeController;
     public EventController eventController;
 
+    void Start()
+    {
+        if (DailyChallengeController.winEvent)
+        {
+            dailyChallengeController.gameObject.SetActive(true);
+            OnDailyChallengeWin();
+        }
+    }
     public void OnDailyChallengeWin()
     {
         tglDailyChallenge.isOn = true;
