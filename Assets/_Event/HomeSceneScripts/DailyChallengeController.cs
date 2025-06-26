@@ -43,6 +43,11 @@ public class DailyChallengeController : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        HomeSceneController.Instance.UpdateDate();
+    }
+
     public void OnChangeMonthClick(int change)
     {
         int year = SelectingDay.Year;
@@ -116,6 +121,8 @@ public class DailyChallengeController : MonoBehaviour
     public void OnDayClick(DateTime date)
     {
         SelectingDay = date;
+        HomeSceneController.Instance.UpdateDate();
+
     }
 
     public void OnPlayClick()
