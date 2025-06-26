@@ -31,7 +31,7 @@ public class HTB : MonoBehaviour
         {
             Vibrator.AndroidVibrate(sensitive);
             Vibrator.iOSVibrate(hapticType);
-            Debug.LogError("Do haptic");
+            // Debug.LogError("Do haptic");
         }
     }
 

@@ -116,9 +116,9 @@ public class SubscriptionManager : MonoBehaviour, IStoreListener
     private static IExtensionProvider storeExtensionProvider;
 
     // Product IDs
-    public const string weeklyId = "com.cloudsoftware.asmr.mahjong.weekly";
-    public const string monthlyId = "com.cloudsoftware.asmr.mahjong.monthly";
-    public const string annualId = "com.cloudsoftware.asmr.mahjong.annual";
+    public const string weeklyId = "com.cloudsoftware.asmr.solitaire.weekly";
+    public const string monthlyId = "com.cloudsoftware.asmr.solitaire.monthly";
+    public const string annualId = "com.cloudsoftware.asmr.solitaire.annual";
 
     string currentSelectedPack;
     public static SubscriptionManager I;

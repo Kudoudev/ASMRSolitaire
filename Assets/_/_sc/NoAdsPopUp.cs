@@ -3,6 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Collections;
 
 public enum PackType
 {
@@ -21,7 +22,7 @@ public class NoAdsPopUp  : MonoBehaviour
     public Button subscribe;
     public Button restoreButton;
     public Button ManageSubscriptionButton;
-    public GameObject unsubscribed, subscribed;
+    public GameObject unsubscribed, subscribed, restore;
     public List<GameObject> subscribedObjects;
     public Text expiredDate;
     // public Text hintReward, shuffleReward;
@@ -167,6 +168,8 @@ public class NoAdsPopUp  : MonoBehaviour
 
     void RestorePurchases()
     {
+        StartCoroutine(IRestore());
+
         if (SubscriptionManager.I == null)
         {
             Debug.LogError("SubscriptionManager not available");
@@ -177,6 +180,14 @@ public class NoAdsPopUp  : MonoBehaviour
         Debug.Log("[NoAdsPopUp] Restoring purchases");
         SubscriptionManager.I.Restore();
     }
+
+    IEnumerator IRestore()
+    {
+        restore.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        restore.SetActive(false);
+    }
+
 
     string GetSelectedPack()
     {
