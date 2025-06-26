@@ -27,6 +27,7 @@ Assets/AssetStoreTools*
 *.svd
 *.pdb
 *.mdb
+*.apk
 
 # =============== #
 # OS Generated    #
