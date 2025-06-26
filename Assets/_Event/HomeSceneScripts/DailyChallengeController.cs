@@ -28,7 +28,7 @@ public class DailyChallengeController : MonoBehaviour
                 for (int i = 0; i < 365; i++)
                 {
                     SelectingDay = DateTime.Today.AddDays(-i);
-                    Debug.LogError(SelectingDay);
+                    // Debug.LogError(SelectingDay);
                     if (PlayerPrefs.GetInt(SelectingDay.ToShortDateString(), 0) == 0)
                         break;
                 }

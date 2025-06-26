@@ -244,7 +244,7 @@ namespace SimpleSolitaire.Controller
         /// </summary>
         public override void OnClickPack()
         {
-            if ((!PackDeck.HasCards && !WasteDeck.HasCards) || KlondikeHintManager.I.Locked)
+            if ((!PackDeck.HasCards && !WasteDeck.HasCards) || KlondikeHintManager.I.Locked || KlondikeHintManager.I.StartLocked)
             {
                 if (AudioCtrl != null)
                 {

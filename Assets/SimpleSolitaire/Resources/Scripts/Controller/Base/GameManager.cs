@@ -117,6 +117,8 @@ namespace SimpleSolitaire.Controller
         private AudioController _audioController;
         public AudioSource _bgmController;
 
+        public bool dicked { get; set; }
+
         private RewardAdsType _currentAdsType = RewardAdsType.None;
 
         private bool _highlightDraggableEnable;

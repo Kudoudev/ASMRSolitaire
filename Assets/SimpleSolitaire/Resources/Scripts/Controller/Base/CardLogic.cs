@@ -355,6 +355,60 @@ namespace SimpleSolitaire.Controller
             HintManagerComponent.UpdateAvailableForDragCards();
             IsGameStarted = true;
 
+
+            // fuck
+            // Debug.LogError(CardsArray.Length);
+            var pos = PackDeck.transform.position;
+            foreach (var c in CardsArray)
+            {
+                var old = c.animator.transform.parent;
+                c.daParent = c.animator.parent;
+                c.animator.transform.parent = null;
+                c.animator.transform.position = pos;
+            }
+
+            int f = 0;
+            float d = 0.1f;
+            KlondikeHintManager.I.StartLocked = true;
+            this.Schedule(0.5f, () =>
+            {
+                
+                var topCards = BottomDeckArray
+                    .Select(d => d.CardsArray)
+                    .Where(c => c != null)
+                    .ToList();
+
+                var cardsInA = topCards.SelectMany(arr => arr).ToHashSet();
+                var animated = CardsArray.Where(card => cardsInA.Contains(card)).ToList();
+                var fastForward = CardsArray.Where(card => !cardsInA.Contains(card)).ToList();
+
+                foreach (var c in animated)
+                {
+                    c.animator.transform.parent = c.daParent;
+                    var dl = f * d;
+                    c.animator.transform.DOLocalMove(Vector3.zero, 0.5f).SetDelay(dl);
+                    this.Schedule(dl, () =>
+                    {
+                        SFXM.I.Play(SFXM.I.dealCard);
+                    });
+
+                    f++;
+                }
+
+                this.Schedule(f * d, () =>
+                {
+                    KlondikeHintManager.I.StartLocked = false;
+                });
+
+                foreach (var c in fastForward)
+                {
+                    c.animator.transform.parent = c.daParent;
+                    c.animator.transform.localPosition = Vector3.zero;
+                }
+
+            });
+
+
         }
 
         /// <summary>

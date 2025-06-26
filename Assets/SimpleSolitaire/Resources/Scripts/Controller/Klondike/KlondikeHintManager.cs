@@ -11,6 +11,7 @@ namespace SimpleSolitaire.Controller
         public AnimationCurve ease;
         static public KlondikeHintManager I;
         public bool Locked{ get; set; }
+        public bool StartLocked { get; set; }
 
         void Awake()
         {
