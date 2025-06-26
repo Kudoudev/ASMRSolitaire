@@ -38,7 +38,7 @@ public class MainSceneController : MonoBehaviour
     {
         if (txtDailyChallengeButton.text == "Play")
         {
-            SceneManager.LoadScene(1);
+            HomeSceneController.Instance.LoadGame();
             // Debug.LogError("==========TODO Implement play daily challenge");
         }
         else
@@ -70,12 +70,10 @@ public class MainSceneController : MonoBehaviour
 
         txtEventButton.text = eventComplete ? "Complete" : "Play";
     }
-
     #endregion
 
     public void OnPlayClick()
     {
-        SceneManager.LoadScene(1);
-        Debug.LogError("==========TODO Implement play");
+        HomeSceneController.Instance.LoadGame();
     }
 }

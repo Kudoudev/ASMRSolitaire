@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HomeSceneController : SingletonMonoBehaviour<HomeSceneController>
@@ -10,6 +11,7 @@ public class HomeSceneController : SingletonMonoBehaviour<HomeSceneController>
     public DailyChallengeController dailyChallengeController;
     public EventController eventController;
     public TMP_Text date;
+    public GameObject loading;
 
     void Start()
     {
@@ -55,5 +57,14 @@ public class HomeSceneController : SingletonMonoBehaviour<HomeSceneController>
     public void ReloadDailyEvent()
     {
         mainSceneController.ReloadDatetimeAndEvent();
+    }
+
+    public void LoadGame()
+    {
+        loading.SetActive(true);
+        this.Schedule(1f, () =>
+        {
+            SceneManager.LoadScene(1);
+        });
     }
 }
