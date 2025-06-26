@@ -41,7 +41,7 @@ public class DailyChallengeButton : MonoBehaviour
         if (_txtDay == null) _txtDay = transform.GetChild(0).GetComponent<TMP_Text>();
         _txtDay.text = date.Day.ToString();
         GetComponent<Button>().interactable = _date <= DateTime.Today;
-        GetComponent<Image>().DOFade(_date != dailyChallengeController.SelectingDay ? 0 : 1, 0);
+        GetComponent<Image>().DOFade(_date != DailyChallengeController.SelectingDay ? 0 : 1, 0);
 
         complete.SetActive(PlayerPrefs.GetInt(_date.ToShortDateString(), 0) == 1);
     }

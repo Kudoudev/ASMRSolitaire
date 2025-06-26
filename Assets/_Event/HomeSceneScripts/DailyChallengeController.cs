@@ -14,12 +14,14 @@ public class DailyChallengeController : MonoBehaviour
     public GameObject btnPreMonth, btnNextMonth, btnPlay, txtCompleteThisMonth;
     public Image imgCup;
 
-    public DateTime SelectingDay;
+    public static DateTime SelectingDay;
 
     private void OnEnable()
     {
         //todo select last day can play
-        SelectingDay = DateTime.Today;
+        if (SelectingDay == default(DateTime))
+            SelectingDay = DateTime.Today;
+            
         FindNotFinishDay();
 
         ResetCalendar();
